@@ -1,0 +1,6914 @@
+[
+    {
+        "pipeSize": "1/8",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 0.405,
+            "mm": 10.287
+        },
+        "wallThickness": {
+            "inch": 0.035,
+            "mm": 0.889
+        },
+        "insideDiameter": {
+            "inch": 0.335,
+            "mm": 8.509
+        },
+        "flowArea": {
+            "squareInch": 0.088,
+            "squareMm": 56.865
+        },
+        "weight": {
+            "lbPerFt": 0.14,
+            "kgPerM": 0.208
+        }
+    },
+    {
+        "pipeSize": "1/8",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 0.405,
+            "mm": 10.287
+        },
+        "wallThickness": {
+            "inch": 0.049,
+            "mm": 1.245
+        },
+        "insideDiameter": {
+            "inch": 0.307,
+            "mm": 7.798
+        },
+        "flowArea": {
+            "squareInch": 0.074,
+            "squareMm": 47.757
+        },
+        "weight": {
+            "lbPerFt": 0.19,
+            "kgPerM": 0.283
+        }
+    },
+    {
+        "pipeSize": "1/8",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 0.405,
+            "mm": 10.287
+        },
+        "wallThickness": {
+            "inch": 0.057,
+            "mm": 1.448
+        },
+        "insideDiameter": {
+            "inch": 0.291,
+            "mm": 7.391
+        },
+        "flowArea": {
+            "squareInch": 0.067,
+            "squareMm": 42.908
+        },
+        "weight": {
+            "lbPerFt": 0.21,
+            "kgPerM": 0.313
+        }
+    },
+    {
+        "pipeSize": "1/8",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 0.405,
+            "mm": 10.287
+        },
+        "wallThickness": {
+            "inch": 0.068,
+            "mm": 1.727
+        },
+        "insideDiameter": {
+            "inch": 0.269,
+            "mm": 6.833
+        },
+        "flowArea": {
+            "squareInch": 0.057,
+            "squareMm": 36.666
+        },
+        "weight": {
+            "lbPerFt": 0.24,
+            "kgPerM": 0.357
+        }
+    },
+    {
+        "pipeSize": "1/8",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 0.405,
+            "mm": 10.287
+        },
+        "wallThickness": {
+            "inch": 0.068,
+            "mm": 1.727
+        },
+        "insideDiameter": {
+            "inch": 0.269,
+            "mm": 6.833
+        },
+        "flowArea": {
+            "squareInch": 0.057,
+            "squareMm": 36.666
+        },
+        "weight": {
+            "lbPerFt": 0.24,
+            "kgPerM": 0.357
+        }
+    },
+    {
+        "pipeSize": "1/8",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 0.405,
+            "mm": 10.287
+        },
+        "wallThickness": {
+            "inch": 0.095,
+            "mm": 2.413
+        },
+        "insideDiameter": {
+            "inch": 0.215,
+            "mm": 5.461
+        },
+        "flowArea": {
+            "squareInch": 0.036,
+            "squareMm": 23.423
+        },
+        "weight": {
+            "lbPerFt": 0.31,
+            "kgPerM": 0.461
+        }
+    },
+    {
+        "pipeSize": "1/8",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 0.405,
+            "mm": 10.287
+        },
+        "wallThickness": {
+            "inch": 0.095,
+            "mm": 2.413
+        },
+        "insideDiameter": {
+            "inch": 0.215,
+            "mm": 5.461
+        },
+        "flowArea": {
+            "squareInch": 0.036,
+            "squareMm": 23.423
+        },
+        "weight": {
+            "lbPerFt": 0.31,
+            "kgPerM": 0.461
+        }
+    },
+    {
+        "pipeSize": "1/4",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 0.54,
+            "mm": 13.716
+        },
+        "wallThickness": {
+            "inch": 0.049,
+            "mm": 1.245
+        },
+        "insideDiameter": {
+            "inch": 0.442,
+            "mm": 11.227
+        },
+        "flowArea": {
+            "squareInch": 0.153,
+            "squareMm": 98.992
+        },
+        "weight": {
+            "lbPerFt": 0.26,
+            "kgPerM": 0.387
+        }
+    },
+    {
+        "pipeSize": "1/4",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 0.54,
+            "mm": 13.716
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 0.41,
+            "mm": 10.414
+        },
+        "flowArea": {
+            "squareInch": 0.132,
+            "squareMm": 85.178
+        },
+        "weight": {
+            "lbPerFt": 0.33,
+            "kgPerM": 0.491
+        }
+    },
+    {
+        "pipeSize": "1/4",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 0.54,
+            "mm": 13.716
+        },
+        "wallThickness": {
+            "inch": 0.073,
+            "mm": 1.854
+        },
+        "insideDiameter": {
+            "inch": 0.394,
+            "mm": 10.008
+        },
+        "flowArea": {
+            "squareInch": 0.122,
+            "squareMm": 78.659
+        },
+        "weight": {
+            "lbPerFt": 0.36,
+            "kgPerM": 0.536
+        }
+    },
+    {
+        "pipeSize": "1/4",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 0.54,
+            "mm": 13.716
+        },
+        "wallThickness": {
+            "inch": 0.088,
+            "mm": 2.235
+        },
+        "insideDiameter": {
+            "inch": 0.364,
+            "mm": 9.246
+        },
+        "flowArea": {
+            "squareInch": 0.104,
+            "squareMm": 67.137
+        },
+        "weight": {
+            "lbPerFt": 0.43,
+            "kgPerM": 0.64
+        }
+    },
+    {
+        "pipeSize": "1/4",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 0.54,
+            "mm": 13.716
+        },
+        "wallThickness": {
+            "inch": 0.088,
+            "mm": 2.235
+        },
+        "insideDiameter": {
+            "inch": 0.364,
+            "mm": 9.246
+        },
+        "flowArea": {
+            "squareInch": 0.104,
+            "squareMm": 67.137
+        },
+        "weight": {
+            "lbPerFt": 0.43,
+            "kgPerM": 0.64
+        }
+    },
+    {
+        "pipeSize": "1/4",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 0.54,
+            "mm": 13.716
+        },
+        "wallThickness": {
+            "inch": 0.119,
+            "mm": 3.023
+        },
+        "insideDiameter": {
+            "inch": 0.302,
+            "mm": 7.671
+        },
+        "flowArea": {
+            "squareInch": 0.072,
+            "squareMm": 46.214
+        },
+        "weight": {
+            "lbPerFt": 0.54,
+            "kgPerM": 0.804
+        }
+    },
+    {
+        "pipeSize": "1/4",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 0.54,
+            "mm": 13.716
+        },
+        "wallThickness": {
+            "inch": 0.119,
+            "mm": 3.023
+        },
+        "insideDiameter": {
+            "inch": 0.302,
+            "mm": 7.671
+        },
+        "flowArea": {
+            "squareInch": 0.072,
+            "squareMm": 46.214
+        },
+        "weight": {
+            "lbPerFt": 0.54,
+            "kgPerM": 0.804
+        }
+    },
+    {
+        "pipeSize": "3/8",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 0.675,
+            "mm": 17.145
+        },
+        "wallThickness": {
+            "inch": 0.049,
+            "mm": 1.245
+        },
+        "insideDiameter": {
+            "inch": 0.577,
+            "mm": 14.656
+        },
+        "flowArea": {
+            "squareInch": 0.261,
+            "squareMm": 168.698
+        },
+        "weight": {
+            "lbPerFt": 0.33,
+            "kgPerM": 0.491
+        }
+    },
+    {
+        "pipeSize": "3/8",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 0.675,
+            "mm": 17.145
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 0.545,
+            "mm": 13.843
+        },
+        "flowArea": {
+            "squareInch": 0.233,
+            "squareMm": 150.505
+        },
+        "weight": {
+            "lbPerFt": 0.42,
+            "kgPerM": 0.625
+        }
+    },
+    {
+        "pipeSize": "3/8",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 0.675,
+            "mm": 17.145
+        },
+        "wallThickness": {
+            "inch": 0.073,
+            "mm": 1.854
+        },
+        "insideDiameter": {
+            "inch": 0.529,
+            "mm": 13.437
+        },
+        "flowArea": {
+            "squareInch": 0.22,
+            "squareMm": 141.798
+        },
+        "weight": {
+            "lbPerFt": 0.47,
+            "kgPerM": 0.699
+        }
+    },
+    {
+        "pipeSize": "3/8",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 0.675,
+            "mm": 17.145
+        },
+        "wallThickness": {
+            "inch": 0.091,
+            "mm": 2.311
+        },
+        "insideDiameter": {
+            "inch": 0.493,
+            "mm": 12.522
+        },
+        "flowArea": {
+            "squareInch": 0.191,
+            "squareMm": 123.155
+        },
+        "weight": {
+            "lbPerFt": 0.57,
+            "kgPerM": 0.848
+        }
+    },
+    {
+        "pipeSize": "3/8",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 0.675,
+            "mm": 17.145
+        },
+        "wallThickness": {
+            "inch": 0.091,
+            "mm": 2.311
+        },
+        "insideDiameter": {
+            "inch": 0.493,
+            "mm": 12.522
+        },
+        "flowArea": {
+            "squareInch": 0.191,
+            "squareMm": 123.155
+        },
+        "weight": {
+            "lbPerFt": 0.57,
+            "kgPerM": 0.848
+        }
+    },
+    {
+        "pipeSize": "3/8",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 0.675,
+            "mm": 17.145
+        },
+        "wallThickness": {
+            "inch": 0.126,
+            "mm": 3.2
+        },
+        "insideDiameter": {
+            "inch": 0.423,
+            "mm": 10.744
+        },
+        "flowArea": {
+            "squareInch": 0.141,
+            "squareMm": 90.665
+        },
+        "weight": {
+            "lbPerFt": 0.74,
+            "kgPerM": 1.101
+        }
+    },
+    {
+        "pipeSize": "3/8",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 0.675,
+            "mm": 17.145
+        },
+        "wallThickness": {
+            "inch": 0.126,
+            "mm": 3.2
+        },
+        "insideDiameter": {
+            "inch": 0.423,
+            "mm": 10.744
+        },
+        "flowArea": {
+            "squareInch": 0.141,
+            "squareMm": 90.665
+        },
+        "weight": {
+            "lbPerFt": 0.74,
+            "kgPerM": 1.101
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 0.71,
+            "mm": 18.034
+        },
+        "flowArea": {
+            "squareInch": 0.396,
+            "squareMm": 255.431
+        },
+        "weight": {
+            "lbPerFt": 0.54,
+            "kgPerM": 0.804
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.083,
+            "mm": 2.108
+        },
+        "insideDiameter": {
+            "inch": 0.674,
+            "mm": 17.12
+        },
+        "flowArea": {
+            "squareInch": 0.357,
+            "squareMm": 230.185
+        },
+        "weight": {
+            "lbPerFt": 0.67,
+            "kgPerM": 0.997
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.095,
+            "mm": 2.413
+        },
+        "insideDiameter": {
+            "inch": 0.65,
+            "mm": 16.51
+        },
+        "flowArea": {
+            "squareInch": 0.332,
+            "squareMm": 214.084
+        },
+        "weight": {
+            "lbPerFt": 0.76,
+            "kgPerM": 1.131
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 0.622,
+            "mm": 15.799
+        },
+        "flowArea": {
+            "squareInch": 0.304,
+            "squareMm": 196.037
+        },
+        "weight": {
+            "lbPerFt": 0.85,
+            "kgPerM": 1.265
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 0.622,
+            "mm": 15.799
+        },
+        "flowArea": {
+            "squareInch": 0.304,
+            "squareMm": 196.037
+        },
+        "weight": {
+            "lbPerFt": 0.85,
+            "kgPerM": 1.265
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.147,
+            "mm": 3.734
+        },
+        "insideDiameter": {
+            "inch": 0.546,
+            "mm": 13.868
+        },
+        "flowArea": {
+            "squareInch": 0.234,
+            "squareMm": 151.058
+        },
+        "weight": {
+            "lbPerFt": 1.09,
+            "kgPerM": 1.622
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.147,
+            "mm": 3.734
+        },
+        "insideDiameter": {
+            "inch": 0.546,
+            "mm": 13.868
+        },
+        "flowArea": {
+            "squareInch": 0.234,
+            "squareMm": 151.058
+        },
+        "weight": {
+            "lbPerFt": 1.09,
+            "kgPerM": 1.622
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.187,
+            "mm": 4.75
+        },
+        "insideDiameter": {
+            "inch": 0.466,
+            "mm": 11.836
+        },
+        "flowArea": {
+            "squareInch": 0.171,
+            "squareMm": 110.035
+        },
+        "weight": {
+            "lbPerFt": 1.31,
+            "kgPerM": 1.949
+        }
+    },
+    {
+        "pipeSize": "1/2",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 0.84,
+            "mm": 21.336
+        },
+        "wallThickness": {
+            "inch": 0.294,
+            "mm": 7.468
+        },
+        "insideDiameter": {
+            "inch": 0.252,
+            "mm": 6.401
+        },
+        "flowArea": {
+            "squareInch": 0.05,
+            "squareMm": 32.178
+        },
+        "weight": {
+            "lbPerFt": 1.72,
+            "kgPerM": 2.56
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 0.92,
+            "mm": 23.368
+        },
+        "flowArea": {
+            "squareInch": 0.665,
+            "squareMm": 428.877
+        },
+        "weight": {
+            "lbPerFt": 0.68,
+            "kgPerM": 1.012
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.083,
+            "mm": 2.108
+        },
+        "insideDiameter": {
+            "inch": 0.884,
+            "mm": 22.454
+        },
+        "flowArea": {
+            "squareInch": 0.614,
+            "squareMm": 395.97
+        },
+        "weight": {
+            "lbPerFt": 0.86,
+            "kgPerM": 1.28
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.095,
+            "mm": 2.413
+        },
+        "insideDiameter": {
+            "inch": 0.86,
+            "mm": 21.844
+        },
+        "flowArea": {
+            "squareInch": 0.581,
+            "squareMm": 374.761
+        },
+        "weight": {
+            "lbPerFt": 0.97,
+            "kgPerM": 1.444
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.113,
+            "mm": 2.87
+        },
+        "insideDiameter": {
+            "inch": 0.824,
+            "mm": 20.93
+        },
+        "flowArea": {
+            "squareInch": 0.533,
+            "squareMm": 344.042
+        },
+        "weight": {
+            "lbPerFt": 1.13,
+            "kgPerM": 1.682
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.113,
+            "mm": 2.87
+        },
+        "insideDiameter": {
+            "inch": 0.824,
+            "mm": 20.93
+        },
+        "flowArea": {
+            "squareInch": 0.533,
+            "squareMm": 344.042
+        },
+        "weight": {
+            "lbPerFt": 1.13,
+            "kgPerM": 1.682
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.154,
+            "mm": 3.912
+        },
+        "insideDiameter": {
+            "inch": 0.742,
+            "mm": 18.847
+        },
+        "flowArea": {
+            "squareInch": 0.432,
+            "squareMm": 278.975
+        },
+        "weight": {
+            "lbPerFt": 1.48,
+            "kgPerM": 2.202
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.154,
+            "mm": 3.912
+        },
+        "insideDiameter": {
+            "inch": 0.742,
+            "mm": 18.847
+        },
+        "flowArea": {
+            "squareInch": 0.432,
+            "squareMm": 278.975
+        },
+        "weight": {
+            "lbPerFt": 1.48,
+            "kgPerM": 2.202
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.218,
+            "mm": 5.537
+        },
+        "insideDiameter": {
+            "inch": 0.614,
+            "mm": 15.596
+        },
+        "flowArea": {
+            "squareInch": 0.296,
+            "squareMm": 191.027
+        },
+        "weight": {
+            "lbPerFt": 1.94,
+            "kgPerM": 2.887
+        }
+    },
+    {
+        "pipeSize": "3/4",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 1.05,
+            "mm": 26.67
+        },
+        "wallThickness": {
+            "inch": 0.308,
+            "mm": 7.823
+        },
+        "insideDiameter": {
+            "inch": 0.434,
+            "mm": 11.024
+        },
+        "flowArea": {
+            "squareInch": 0.148,
+            "squareMm": 95.441
+        },
+        "weight": {
+            "lbPerFt": 2.44,
+            "kgPerM": 3.631
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 1.185,
+            "mm": 30.099
+        },
+        "flowArea": {
+            "squareInch": 1.103,
+            "squareMm": 711.531
+        },
+        "weight": {
+            "lbPerFt": 0.87,
+            "kgPerM": 1.295
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 1.097,
+            "mm": 27.864
+        },
+        "flowArea": {
+            "squareInch": 0.945,
+            "squareMm": 609.776
+        },
+        "weight": {
+            "lbPerFt": 1.41,
+            "kgPerM": 2.098
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.114,
+            "mm": 2.896
+        },
+        "insideDiameter": {
+            "inch": 1.087,
+            "mm": 27.61
+        },
+        "flowArea": {
+            "squareInch": 0.928,
+            "squareMm": 598.71
+        },
+        "weight": {
+            "lbPerFt": 1.46,
+            "kgPerM": 2.173
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.133,
+            "mm": 3.378
+        },
+        "insideDiameter": {
+            "inch": 1.049,
+            "mm": 26.645
+        },
+        "flowArea": {
+            "squareInch": 0.864,
+            "squareMm": 557.581
+        },
+        "weight": {
+            "lbPerFt": 1.68,
+            "kgPerM": 2.5
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.133,
+            "mm": 3.378
+        },
+        "insideDiameter": {
+            "inch": 1.049,
+            "mm": 26.645
+        },
+        "flowArea": {
+            "squareInch": 0.864,
+            "squareMm": 557.581
+        },
+        "weight": {
+            "lbPerFt": 1.68,
+            "kgPerM": 2.5
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.179,
+            "mm": 4.547
+        },
+        "insideDiameter": {
+            "inch": 0.957,
+            "mm": 24.308
+        },
+        "flowArea": {
+            "squareInch": 0.719,
+            "squareMm": 464.068
+        },
+        "weight": {
+            "lbPerFt": 2.17,
+            "kgPerM": 3.229
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.179,
+            "mm": 4.547
+        },
+        "insideDiameter": {
+            "inch": 0.957,
+            "mm": 24.308
+        },
+        "flowArea": {
+            "squareInch": 0.719,
+            "squareMm": 464.068
+        },
+        "weight": {
+            "lbPerFt": 2.17,
+            "kgPerM": 3.229
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 0.815,
+            "mm": 20.701
+        },
+        "flowArea": {
+            "squareInch": 0.522,
+            "squareMm": 336.568
+        },
+        "weight": {
+            "lbPerFt": 2.85,
+            "kgPerM": 4.241
+        }
+    },
+    {
+        "pipeSize": "1",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 1.315,
+            "mm": 33.401
+        },
+        "wallThickness": {
+            "inch": 0.358,
+            "mm": 9.093
+        },
+        "insideDiameter": {
+            "inch": 0.599,
+            "mm": 15.215
+        },
+        "flowArea": {
+            "squareInch": 0.282,
+            "squareMm": 181.807
+        },
+        "weight": {
+            "lbPerFt": 3.66,
+            "kgPerM": 5.447
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 1.53,
+            "mm": 38.862
+        },
+        "flowArea": {
+            "squareInch": 1.839,
+            "squareMm": 1186.152
+        },
+        "weight": {
+            "lbPerFt": 1.11,
+            "kgPerM": 1.652
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 1.442,
+            "mm": 36.627
+        },
+        "flowArea": {
+            "squareInch": 1.633,
+            "squareMm": 1053.629
+        },
+        "weight": {
+            "lbPerFt": 1.81,
+            "kgPerM": 2.694
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.117,
+            "mm": 2.972
+        },
+        "insideDiameter": {
+            "inch": 1.426,
+            "mm": 36.22
+        },
+        "flowArea": {
+            "squareInch": 1.597,
+            "squareMm": 1030.377
+        },
+        "weight": {
+            "lbPerFt": 1.93,
+            "kgPerM": 2.872
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.14,
+            "mm": 3.556
+        },
+        "insideDiameter": {
+            "inch": 1.38,
+            "mm": 35.052
+        },
+        "flowArea": {
+            "squareInch": 1.496,
+            "squareMm": 964.974
+        },
+        "weight": {
+            "lbPerFt": 2.27,
+            "kgPerM": 3.378
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.14,
+            "mm": 3.556
+        },
+        "insideDiameter": {
+            "inch": 1.38,
+            "mm": 35.052
+        },
+        "flowArea": {
+            "squareInch": 1.496,
+            "squareMm": 964.974
+        },
+        "weight": {
+            "lbPerFt": 2.27,
+            "kgPerM": 3.378
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.191,
+            "mm": 4.851
+        },
+        "insideDiameter": {
+            "inch": 1.278,
+            "mm": 32.461
+        },
+        "flowArea": {
+            "squareInch": 1.283,
+            "squareMm": 827.597
+        },
+        "weight": {
+            "lbPerFt": 3.0,
+            "kgPerM": 4.464
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.191,
+            "mm": 4.851
+        },
+        "insideDiameter": {
+            "inch": 1.278,
+            "mm": 32.461
+        },
+        "flowArea": {
+            "squareInch": 1.283,
+            "squareMm": 827.597
+        },
+        "weight": {
+            "lbPerFt": 3.0,
+            "kgPerM": 4.464
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 1.16,
+            "mm": 29.464
+        },
+        "flowArea": {
+            "squareInch": 1.057,
+            "squareMm": 681.826
+        },
+        "weight": {
+            "lbPerFt": 3.77,
+            "kgPerM": 5.61
+        }
+    },
+    {
+        "pipeSize": "1-1/4",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 1.66,
+            "mm": 42.164
+        },
+        "wallThickness": {
+            "inch": 0.382,
+            "mm": 9.703
+        },
+        "insideDiameter": {
+            "inch": 0.896,
+            "mm": 22.758
+        },
+        "flowArea": {
+            "squareInch": 0.631,
+            "squareMm": 406.793
+        },
+        "weight": {
+            "lbPerFt": 5.22,
+            "kgPerM": 7.768
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 1.77,
+            "mm": 44.958
+        },
+        "flowArea": {
+            "squareInch": 2.461,
+            "squareMm": 1587.464
+        },
+        "weight": {
+            "lbPerFt": 1.28,
+            "kgPerM": 1.905
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 1.682,
+            "mm": 42.723
+        },
+        "flowArea": {
+            "squareInch": 2.222,
+            "squareMm": 1433.538
+        },
+        "weight": {
+            "lbPerFt": 2.09,
+            "kgPerM": 3.11
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.125,
+            "mm": 3.175
+        },
+        "insideDiameter": {
+            "inch": 1.65,
+            "mm": 41.91
+        },
+        "flowArea": {
+            "squareInch": 2.138,
+            "squareMm": 1379.511
+        },
+        "weight": {
+            "lbPerFt": 2.37,
+            "kgPerM": 3.527
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.145,
+            "mm": 3.683
+        },
+        "insideDiameter": {
+            "inch": 1.61,
+            "mm": 40.894
+        },
+        "flowArea": {
+            "squareInch": 2.036,
+            "squareMm": 1313.436
+        },
+        "weight": {
+            "lbPerFt": 2.72,
+            "kgPerM": 4.048
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.145,
+            "mm": 3.683
+        },
+        "insideDiameter": {
+            "inch": 1.61,
+            "mm": 40.894
+        },
+        "flowArea": {
+            "squareInch": 2.036,
+            "squareMm": 1313.436
+        },
+        "weight": {
+            "lbPerFt": 2.72,
+            "kgPerM": 4.048
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.2,
+            "mm": 5.08
+        },
+        "insideDiameter": {
+            "inch": 1.5,
+            "mm": 38.1
+        },
+        "flowArea": {
+            "squareInch": 1.767,
+            "squareMm": 1140.092
+        },
+        "weight": {
+            "lbPerFt": 3.63,
+            "kgPerM": 5.402
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.2,
+            "mm": 5.08
+        },
+        "insideDiameter": {
+            "inch": 1.5,
+            "mm": 38.1
+        },
+        "flowArea": {
+            "squareInch": 1.767,
+            "squareMm": 1140.092
+        },
+        "weight": {
+            "lbPerFt": 3.63,
+            "kgPerM": 5.402
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.281,
+            "mm": 7.137
+        },
+        "insideDiameter": {
+            "inch": 1.338,
+            "mm": 33.985
+        },
+        "flowArea": {
+            "squareInch": 1.406,
+            "squareMm": 907.13
+        },
+        "weight": {
+            "lbPerFt": 4.86,
+            "kgPerM": 7.232
+        }
+    },
+    {
+        "pipeSize": "1-1/2",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 1.9,
+            "mm": 48.26
+        },
+        "wallThickness": {
+            "inch": 0.4,
+            "mm": 10.16
+        },
+        "insideDiameter": {
+            "inch": 1.1,
+            "mm": 27.94
+        },
+        "flowArea": {
+            "squareInch": 0.95,
+            "squareMm": 613.116
+        },
+        "weight": {
+            "lbPerFt": 6.41,
+            "kgPerM": 9.539
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.065,
+            "mm": 1.651
+        },
+        "insideDiameter": {
+            "inch": 2.245,
+            "mm": 57.023
+        },
+        "flowArea": {
+            "squareInch": 3.958,
+            "squareMm": 2553.818
+        },
+        "weight": {
+            "lbPerFt": 1.61,
+            "kgPerM": 2.396
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 2.157,
+            "mm": 54.788
+        },
+        "flowArea": {
+            "squareInch": 3.654,
+            "squareMm": 2357.532
+        },
+        "weight": {
+            "lbPerFt": 2.64,
+            "kgPerM": 3.929
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.125,
+            "mm": 3.175
+        },
+        "insideDiameter": {
+            "inch": 2.125,
+            "mm": 53.975
+        },
+        "flowArea": {
+            "squareInch": 3.547,
+            "squareMm": 2288.101
+        },
+        "weight": {
+            "lbPerFt": 3.01,
+            "kgPerM": 4.479
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.154,
+            "mm": 3.912
+        },
+        "insideDiameter": {
+            "inch": 2.067,
+            "mm": 52.502
+        },
+        "flowArea": {
+            "squareInch": 3.356,
+            "squareMm": 2164.902
+        },
+        "weight": {
+            "lbPerFt": 3.66,
+            "kgPerM": 5.447
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.154,
+            "mm": 3.912
+        },
+        "insideDiameter": {
+            "inch": 2.067,
+            "mm": 52.502
+        },
+        "flowArea": {
+            "squareInch": 3.356,
+            "squareMm": 2164.902
+        },
+        "weight": {
+            "lbPerFt": 3.66,
+            "kgPerM": 5.447
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.218,
+            "mm": 5.537
+        },
+        "insideDiameter": {
+            "inch": 1.939,
+            "mm": 49.251
+        },
+        "flowArea": {
+            "squareInch": 2.953,
+            "squareMm": 1905.079
+        },
+        "weight": {
+            "lbPerFt": 5.03,
+            "kgPerM": 7.485
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.218,
+            "mm": 5.537
+        },
+        "insideDiameter": {
+            "inch": 1.939,
+            "mm": 49.251
+        },
+        "flowArea": {
+            "squareInch": 2.953,
+            "squareMm": 1905.079
+        },
+        "weight": {
+            "lbPerFt": 5.03,
+            "kgPerM": 7.485
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.344,
+            "mm": 8.738
+        },
+        "insideDiameter": {
+            "inch": 1.687,
+            "mm": 42.85
+        },
+        "flowArea": {
+            "squareInch": 2.235,
+            "squareMm": 1442.074
+        },
+        "weight": {
+            "lbPerFt": 7.47,
+            "kgPerM": 11.117
+        }
+    },
+    {
+        "pipeSize": "2",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 2.375,
+            "mm": 60.325
+        },
+        "wallThickness": {
+            "inch": 0.436,
+            "mm": 11.074
+        },
+        "insideDiameter": {
+            "inch": 1.503,
+            "mm": 38.176
+        },
+        "flowArea": {
+            "squareInch": 1.774,
+            "squareMm": 1144.657
+        },
+        "weight": {
+            "lbPerFt": 9.04,
+            "kgPerM": 13.453
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.083,
+            "mm": 2.108
+        },
+        "insideDiameter": {
+            "inch": 2.709,
+            "mm": 68.809
+        },
+        "flowArea": {
+            "squareInch": 5.764,
+            "squareMm": 3718.565
+        },
+        "weight": {
+            "lbPerFt": 2.48,
+            "kgPerM": 3.691
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.12,
+            "mm": 3.048
+        },
+        "insideDiameter": {
+            "inch": 2.635,
+            "mm": 66.929
+        },
+        "flowArea": {
+            "squareInch": 5.453,
+            "squareMm": 3518.184
+        },
+        "weight": {
+            "lbPerFt": 3.53,
+            "kgPerM": 5.253
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.188,
+            "mm": 4.775
+        },
+        "insideDiameter": {
+            "inch": 2.499,
+            "mm": 63.475
+        },
+        "flowArea": {
+            "squareInch": 4.905,
+            "squareMm": 3164.389
+        },
+        "weight": {
+            "lbPerFt": 5.4,
+            "kgPerM": 8.036
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.203,
+            "mm": 5.156
+        },
+        "insideDiameter": {
+            "inch": 2.469,
+            "mm": 62.713
+        },
+        "flowArea": {
+            "squareInch": 4.788,
+            "squareMm": 3088.869
+        },
+        "weight": {
+            "lbPerFt": 5.8,
+            "kgPerM": 8.631
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.203,
+            "mm": 5.156
+        },
+        "insideDiameter": {
+            "inch": 2.469,
+            "mm": 62.713
+        },
+        "flowArea": {
+            "squareInch": 4.788,
+            "squareMm": 3088.869
+        },
+        "weight": {
+            "lbPerFt": 5.8,
+            "kgPerM": 8.631
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.276,
+            "mm": 7.01
+        },
+        "insideDiameter": {
+            "inch": 2.323,
+            "mm": 59.004
+        },
+        "flowArea": {
+            "squareInch": 4.238,
+            "squareMm": 2734.36
+        },
+        "weight": {
+            "lbPerFt": 7.67,
+            "kgPerM": 11.414
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.276,
+            "mm": 7.01
+        },
+        "insideDiameter": {
+            "inch": 2.323,
+            "mm": 59.004
+        },
+        "flowArea": {
+            "squareInch": 4.238,
+            "squareMm": 2734.36
+        },
+        "weight": {
+            "lbPerFt": 7.67,
+            "kgPerM": 11.414
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 2.125,
+            "mm": 53.975
+        },
+        "flowArea": {
+            "squareInch": 3.547,
+            "squareMm": 2288.101
+        },
+        "weight": {
+            "lbPerFt": 10.02,
+            "kgPerM": 14.911
+        }
+    },
+    {
+        "pipeSize": "2-1/2",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 2.875,
+            "mm": 73.025
+        },
+        "wallThickness": {
+            "inch": 0.552,
+            "mm": 14.021
+        },
+        "insideDiameter": {
+            "inch": 1.771,
+            "mm": 44.983
+        },
+        "flowArea": {
+            "squareInch": 2.463,
+            "squareMm": 1589.258
+        },
+        "weight": {
+            "lbPerFt": 13.71,
+            "kgPerM": 20.403
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.083,
+            "mm": 2.108
+        },
+        "insideDiameter": {
+            "inch": 3.334,
+            "mm": 84.684
+        },
+        "flowArea": {
+            "squareInch": 8.73,
+            "squareMm": 5632.335
+        },
+        "weight": {
+            "lbPerFt": 3.03,
+            "kgPerM": 4.509
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.12,
+            "mm": 3.048
+        },
+        "insideDiameter": {
+            "inch": 3.26,
+            "mm": 82.804
+        },
+        "flowArea": {
+            "squareInch": 8.347,
+            "squareMm": 5385.084
+        },
+        "weight": {
+            "lbPerFt": 4.34,
+            "kgPerM": 6.459
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.188,
+            "mm": 4.775
+        },
+        "insideDiameter": {
+            "inch": 3.124,
+            "mm": 79.35
+        },
+        "flowArea": {
+            "squareInch": 7.665,
+            "squareMm": 4945.149
+        },
+        "weight": {
+            "lbPerFt": 6.66,
+            "kgPerM": 9.911
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.216,
+            "mm": 5.486
+        },
+        "insideDiameter": {
+            "inch": 3.068,
+            "mm": 77.927
+        },
+        "flowArea": {
+            "squareInch": 7.393,
+            "squareMm": 4769.447
+        },
+        "weight": {
+            "lbPerFt": 7.58,
+            "kgPerM": 11.28
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.216,
+            "mm": 5.486
+        },
+        "insideDiameter": {
+            "inch": 3.068,
+            "mm": 77.927
+        },
+        "flowArea": {
+            "squareInch": 7.393,
+            "squareMm": 4769.447
+        },
+        "weight": {
+            "lbPerFt": 7.58,
+            "kgPerM": 11.28
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.3,
+            "mm": 7.62
+        },
+        "insideDiameter": {
+            "inch": 2.9,
+            "mm": 73.66
+        },
+        "flowArea": {
+            "squareInch": 6.605,
+            "squareMm": 4261.41
+        },
+        "weight": {
+            "lbPerFt": 10.26,
+            "kgPerM": 15.269
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.3,
+            "mm": 7.62
+        },
+        "insideDiameter": {
+            "inch": 2.9,
+            "mm": 73.66
+        },
+        "flowArea": {
+            "squareInch": 6.605,
+            "squareMm": 4261.41
+        },
+        "weight": {
+            "lbPerFt": 10.26,
+            "kgPerM": 15.269
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.438,
+            "mm": 11.125
+        },
+        "insideDiameter": {
+            "inch": 2.624,
+            "mm": 66.65
+        },
+        "flowArea": {
+            "squareInch": 5.408,
+            "squareMm": 3488.872
+        },
+        "weight": {
+            "lbPerFt": 14.34,
+            "kgPerM": 21.34
+        }
+    },
+    {
+        "pipeSize": "3",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 3.5,
+            "mm": 88.9
+        },
+        "wallThickness": {
+            "inch": 0.6,
+            "mm": 15.24
+        },
+        "insideDiameter": {
+            "inch": 2.3,
+            "mm": 58.42
+        },
+        "flowArea": {
+            "squareInch": 4.155,
+            "squareMm": 2680.483
+        },
+        "weight": {
+            "lbPerFt": 18.6,
+            "kgPerM": 27.68
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.083,
+            "mm": 2.108
+        },
+        "insideDiameter": {
+            "inch": 3.834,
+            "mm": 97.384
+        },
+        "flowArea": {
+            "squareInch": 11.545,
+            "squareMm": 7448.375
+        },
+        "weight": {
+            "lbPerFt": 3.48,
+            "kgPerM": 5.179
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.12,
+            "mm": 3.048
+        },
+        "insideDiameter": {
+            "inch": 3.76,
+            "mm": 95.504
+        },
+        "flowArea": {
+            "squareInch": 11.104,
+            "squareMm": 7163.628
+        },
+        "weight": {
+            "lbPerFt": 4.98,
+            "kgPerM": 7.411
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.188,
+            "mm": 4.775
+        },
+        "insideDiameter": {
+            "inch": 3.624,
+            "mm": 92.05
+        },
+        "flowArea": {
+            "squareInch": 10.315,
+            "squareMm": 6654.78
+        },
+        "weight": {
+            "lbPerFt": 7.66,
+            "kgPerM": 11.399
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.226,
+            "mm": 5.74
+        },
+        "insideDiameter": {
+            "inch": 3.548,
+            "mm": 90.119
+        },
+        "flowArea": {
+            "squareInch": 9.887,
+            "squareMm": 6378.588
+        },
+        "weight": {
+            "lbPerFt": 9.12,
+            "kgPerM": 13.572
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.226,
+            "mm": 5.74
+        },
+        "insideDiameter": {
+            "inch": 3.548,
+            "mm": 90.119
+        },
+        "flowArea": {
+            "squareInch": 9.887,
+            "squareMm": 6378.588
+        },
+        "weight": {
+            "lbPerFt": 9.12,
+            "kgPerM": 13.572
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.318,
+            "mm": 8.077
+        },
+        "insideDiameter": {
+            "inch": 3.364,
+            "mm": 85.446
+        },
+        "flowArea": {
+            "squareInch": 8.888,
+            "squareMm": 5734.153
+        },
+        "weight": {
+            "lbPerFt": 12.52,
+            "kgPerM": 18.632
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.318,
+            "mm": 8.077
+        },
+        "insideDiameter": {
+            "inch": 3.364,
+            "mm": 85.446
+        },
+        "flowArea": {
+            "squareInch": 8.888,
+            "squareMm": 5734.153
+        },
+        "weight": {
+            "lbPerFt": 12.52,
+            "kgPerM": 18.632
+        }
+    },
+    {
+        "pipeSize": "3-1/2",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 4.0,
+            "mm": 101.6
+        },
+        "wallThickness": {
+            "inch": 0.636,
+            "mm": 16.154
+        },
+        "insideDiameter": {
+            "inch": 2.728,
+            "mm": 69.291
+        },
+        "flowArea": {
+            "squareInch": 5.845,
+            "squareMm": 3770.909
+        },
+        "weight": {
+            "lbPerFt": 22.87,
+            "kgPerM": 34.034
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.083,
+            "mm": 2.108
+        },
+        "insideDiameter": {
+            "inch": 4.334,
+            "mm": 110.084
+        },
+        "flowArea": {
+            "squareInch": 14.753,
+            "squareMm": 9517.768
+        },
+        "weight": {
+            "lbPerFt": 3.92,
+            "kgPerM": 5.834
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.12,
+            "mm": 3.048
+        },
+        "insideDiameter": {
+            "inch": 4.26,
+            "mm": 108.204
+        },
+        "flowArea": {
+            "squareInch": 14.253,
+            "squareMm": 9195.525
+        },
+        "weight": {
+            "lbPerFt": 5.62,
+            "kgPerM": 8.363
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.188,
+            "mm": 4.775
+        },
+        "insideDiameter": {
+            "inch": 4.124,
+            "mm": 104.75
+        },
+        "flowArea": {
+            "squareInch": 13.358,
+            "squareMm": 8617.765
+        },
+        "weight": {
+            "lbPerFt": 8.67,
+            "kgPerM": 12.902
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.237,
+            "mm": 6.02
+        },
+        "insideDiameter": {
+            "inch": 4.026,
+            "mm": 102.26
+        },
+        "flowArea": {
+            "squareInch": 12.73,
+            "squareMm": 8213.057
+        },
+        "weight": {
+            "lbPerFt": 10.8,
+            "kgPerM": 16.072
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.237,
+            "mm": 6.02
+        },
+        "insideDiameter": {
+            "inch": 4.026,
+            "mm": 102.26
+        },
+        "flowArea": {
+            "squareInch": 12.73,
+            "squareMm": 8213.057
+        },
+        "weight": {
+            "lbPerFt": 10.8,
+            "kgPerM": 16.072
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.281,
+            "mm": 7.137
+        },
+        "insideDiameter": {
+            "inch": 3.938,
+            "mm": 100.025
+        },
+        "flowArea": {
+            "squareInch": 12.18,
+            "squareMm": 7857.941
+        },
+        "weight": {
+            "lbPerFt": 12.67,
+            "kgPerM": 18.855
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.337,
+            "mm": 8.56
+        },
+        "insideDiameter": {
+            "inch": 3.826,
+            "mm": 97.18
+        },
+        "flowArea": {
+            "squareInch": 11.497,
+            "squareMm": 7417.324
+        },
+        "weight": {
+            "lbPerFt": 15.0,
+            "kgPerM": 22.322
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.337,
+            "mm": 8.56
+        },
+        "insideDiameter": {
+            "inch": 3.826,
+            "mm": 97.18
+        },
+        "flowArea": {
+            "squareInch": 11.497,
+            "squareMm": 7417.324
+        },
+        "weight": {
+            "lbPerFt": 15.0,
+            "kgPerM": 22.322
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.438,
+            "mm": 11.125
+        },
+        "insideDiameter": {
+            "inch": 3.624,
+            "mm": 92.05
+        },
+        "flowArea": {
+            "squareInch": 10.315,
+            "squareMm": 6654.78
+        },
+        "weight": {
+            "lbPerFt": 19.02,
+            "kgPerM": 28.305
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.531,
+            "mm": 13.487
+        },
+        "insideDiameter": {
+            "inch": 3.438,
+            "mm": 87.325
+        },
+        "flowArea": {
+            "squareInch": 9.283,
+            "squareMm": 5989.203
+        },
+        "weight": {
+            "lbPerFt": 22.53,
+            "kgPerM": 33.528
+        }
+    },
+    {
+        "pipeSize": "4",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 4.5,
+            "mm": 114.3
+        },
+        "wallThickness": {
+            "inch": 0.674,
+            "mm": 17.12
+        },
+        "insideDiameter": {
+            "inch": 3.152,
+            "mm": 80.061
+        },
+        "flowArea": {
+            "squareInch": 7.803,
+            "squareMm": 5034.192
+        },
+        "weight": {
+            "lbPerFt": 27.57,
+            "kgPerM": 41.029
+        }
+    },
+    {
+        "pipeSize": "4-1/2",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 5.0,
+            "mm": 127.0
+        },
+        "wallThickness": {
+            "inch": 0.247,
+            "mm": 6.274
+        },
+        "insideDiameter": {
+            "inch": 4.506,
+            "mm": 114.452
+        },
+        "flowArea": {
+            "squareInch": 15.947,
+            "squareMm": 10288.207
+        },
+        "weight": {
+            "lbPerFt": null,
+            "kgPerM": null
+        }
+    },
+    {
+        "pipeSize": "4-1/2",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 5.0,
+            "mm": 127.0
+        },
+        "wallThickness": {
+            "inch": 0.355,
+            "mm": 9.017
+        },
+        "insideDiameter": {
+            "inch": 4.29,
+            "mm": 108.966
+        },
+        "flowArea": {
+            "squareInch": 14.455,
+            "squareMm": 9325.495
+        },
+        "weight": {
+            "lbPerFt": null,
+            "kgPerM": null
+        }
+    },
+    {
+        "pipeSize": "4-1/2",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 5.0,
+            "mm": 127.0
+        },
+        "wallThickness": {
+            "inch": 0.71,
+            "mm": 18.034
+        },
+        "insideDiameter": {
+            "inch": 3.58,
+            "mm": 90.932
+        },
+        "flowArea": {
+            "squareInch": 10.066,
+            "squareMm": 6494.166
+        },
+        "weight": {
+            "lbPerFt": null,
+            "kgPerM": null
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 5.345,
+            "mm": 135.763
+        },
+        "flowArea": {
+            "squareInch": 22.438,
+            "squareMm": 14476.139
+        },
+        "weight": {
+            "lbPerFt": 6.36,
+            "kgPerM": 9.465
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.134,
+            "mm": 3.404
+        },
+        "insideDiameter": {
+            "inch": 5.295,
+            "mm": 134.493
+        },
+        "flowArea": {
+            "squareInch": 22.02,
+            "squareMm": 14206.57
+        },
+        "weight": {
+            "lbPerFt": 7.78,
+            "kgPerM": 11.578
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.258,
+            "mm": 6.553
+        },
+        "insideDiameter": {
+            "inch": 5.047,
+            "mm": 128.194
+        },
+        "flowArea": {
+            "squareInch": 20.006,
+            "squareMm": 12906.959
+        },
+        "weight": {
+            "lbPerFt": 14.63,
+            "kgPerM": 21.772
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.258,
+            "mm": 6.553
+        },
+        "insideDiameter": {
+            "inch": 5.047,
+            "mm": 128.194
+        },
+        "flowArea": {
+            "squareInch": 20.006,
+            "squareMm": 12906.959
+        },
+        "weight": {
+            "lbPerFt": 14.63,
+            "kgPerM": 21.772
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 4.813,
+            "mm": 122.25
+        },
+        "flowArea": {
+            "squareInch": 18.194,
+            "squareMm": 11737.863
+        },
+        "weight": {
+            "lbPerFt": 20.8,
+            "kgPerM": 30.954
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 4.813,
+            "mm": 122.25
+        },
+        "flowArea": {
+            "squareInch": 18.194,
+            "squareMm": 11737.863
+        },
+        "weight": {
+            "lbPerFt": 20.8,
+            "kgPerM": 30.954
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 4.563,
+            "mm": 115.9
+        },
+        "flowArea": {
+            "squareInch": 16.353,
+            "squareMm": 10550.141
+        },
+        "weight": {
+            "lbPerFt": 27.06,
+            "kgPerM": 40.27
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.625,
+            "mm": 15.875
+        },
+        "insideDiameter": {
+            "inch": 4.313,
+            "mm": 109.55
+        },
+        "flowArea": {
+            "squareInch": 14.61,
+            "squareMm": 9425.757
+        },
+        "weight": {
+            "lbPerFt": 32.99,
+            "kgPerM": 49.095
+        }
+    },
+    {
+        "pipeSize": "5",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 5.563,
+            "mm": 141.3
+        },
+        "wallThickness": {
+            "inch": 0.75,
+            "mm": 19.05
+        },
+        "insideDiameter": {
+            "inch": 4.063,
+            "mm": 103.2
+        },
+        "flowArea": {
+            "squareInch": 12.965,
+            "squareMm": 8364.711
+        },
+        "weight": {
+            "lbPerFt": 38.59,
+            "kgPerM": 57.428
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 6.407,
+            "mm": 162.738
+        },
+        "flowArea": {
+            "squareInch": 32.24,
+            "squareMm": 20800.164
+        },
+        "weight": {
+            "lbPerFt": 7.59,
+            "kgPerM": 11.295
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.134,
+            "mm": 3.404
+        },
+        "insideDiameter": {
+            "inch": 6.357,
+            "mm": 161.468
+        },
+        "flowArea": {
+            "squareInch": 31.739,
+            "squareMm": 20476.783
+        },
+        "weight": {
+            "lbPerFt": 9.3,
+            "kgPerM": 13.84
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.28,
+            "mm": 7.112
+        },
+        "insideDiameter": {
+            "inch": 6.065,
+            "mm": 154.051
+        },
+        "flowArea": {
+            "squareInch": 28.89,
+            "squareMm": 18638.842
+        },
+        "weight": {
+            "lbPerFt": 18.99,
+            "kgPerM": 28.26
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.28,
+            "mm": 7.112
+        },
+        "insideDiameter": {
+            "inch": 6.065,
+            "mm": 154.051
+        },
+        "flowArea": {
+            "squareInch": 28.89,
+            "squareMm": 18638.842
+        },
+        "weight": {
+            "lbPerFt": 18.99,
+            "kgPerM": 28.26
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.432,
+            "mm": 10.973
+        },
+        "insideDiameter": {
+            "inch": 5.761,
+            "mm": 146.329
+        },
+        "flowArea": {
+            "squareInch": 26.067,
+            "squareMm": 16817.176
+        },
+        "weight": {
+            "lbPerFt": 28.6,
+            "kgPerM": 42.561
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.432,
+            "mm": 10.973
+        },
+        "insideDiameter": {
+            "inch": 5.761,
+            "mm": 146.329
+        },
+        "flowArea": {
+            "squareInch": 26.067,
+            "squareMm": 16817.176
+        },
+        "weight": {
+            "lbPerFt": 28.6,
+            "kgPerM": 42.561
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.562,
+            "mm": 14.275
+        },
+        "insideDiameter": {
+            "inch": 5.501,
+            "mm": 139.725
+        },
+        "flowArea": {
+            "squareInch": 23.767,
+            "squareMm": 15333.476
+        },
+        "weight": {
+            "lbPerFt": 36.43,
+            "kgPerM": 54.214
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.719,
+            "mm": 18.263
+        },
+        "insideDiameter": {
+            "inch": 5.187,
+            "mm": 131.75
+        },
+        "flowArea": {
+            "squareInch": 21.131,
+            "squareMm": 13632.949
+        },
+        "weight": {
+            "lbPerFt": 45.39,
+            "kgPerM": 67.548
+        }
+    },
+    {
+        "pipeSize": "6",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "wallThickness": {
+            "inch": 0.864,
+            "mm": 21.946
+        },
+        "insideDiameter": {
+            "inch": 4.897,
+            "mm": 124.384
+        },
+        "flowArea": {
+            "squareInch": 18.834,
+            "squareMm": 12151.154
+        },
+        "weight": {
+            "lbPerFt": 53.21,
+            "kgPerM": 79.185
+        }
+    },
+    {
+        "pipeSize": "7",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 7.625,
+            "mm": 193.675
+        },
+        "wallThickness": {
+            "inch": 0.301,
+            "mm": 7.645
+        },
+        "insideDiameter": {
+            "inch": 7.023,
+            "mm": 178.384
+        },
+        "flowArea": {
+            "squareInch": 38.738,
+            "squareMm": 24992.094
+        },
+        "weight": {
+            "lbPerFt": null,
+            "kgPerM": null
+        }
+    },
+    {
+        "pipeSize": "7",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 7.625,
+            "mm": 193.675
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 6.625,
+            "mm": 168.275
+        },
+        "flowArea": {
+            "squareInch": 34.472,
+            "squareMm": 22239.708
+        },
+        "weight": {
+            "lbPerFt": null,
+            "kgPerM": null
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.109,
+            "mm": 2.769
+        },
+        "insideDiameter": {
+            "inch": 8.407,
+            "mm": 213.538
+        },
+        "flowArea": {
+            "squareInch": 55.51,
+            "squareMm": 35812.893
+        },
+        "weight": {
+            "lbPerFt": 9.92,
+            "kgPerM": 14.763
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.148,
+            "mm": 3.759
+        },
+        "insideDiameter": {
+            "inch": 8.329,
+            "mm": 211.557
+        },
+        "flowArea": {
+            "squareInch": 54.485,
+            "squareMm": 35151.433
+        },
+        "weight": {
+            "lbPerFt": 13.41,
+            "kgPerM": 19.956
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 8.125,
+            "mm": 206.375
+        },
+        "flowArea": {
+            "squareInch": 51.849,
+            "squareMm": 33450.611
+        },
+        "weight": {
+            "lbPerFt": 22.38,
+            "kgPerM": 33.305
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.277,
+            "mm": 7.036
+        },
+        "insideDiameter": {
+            "inch": 8.071,
+            "mm": 205.003
+        },
+        "flowArea": {
+            "squareInch": 51.162,
+            "squareMm": 33007.453
+        },
+        "weight": {
+            "lbPerFt": 24.72,
+            "kgPerM": 36.787
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.322,
+            "mm": 8.179
+        },
+        "insideDiameter": {
+            "inch": 7.981,
+            "mm": 202.717
+        },
+        "flowArea": {
+            "squareInch": 50.027,
+            "squareMm": 32275.423
+        },
+        "weight": {
+            "lbPerFt": 28.58,
+            "kgPerM": 42.532
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.322,
+            "mm": 8.179
+        },
+        "insideDiameter": {
+            "inch": 7.981,
+            "mm": 202.717
+        },
+        "flowArea": {
+            "squareInch": 50.027,
+            "squareMm": 32275.423
+        },
+        "weight": {
+            "lbPerFt": 28.58,
+            "kgPerM": 42.532
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.406,
+            "mm": 10.312
+        },
+        "insideDiameter": {
+            "inch": 7.813,
+            "mm": 198.45
+        },
+        "flowArea": {
+            "squareInch": 47.943,
+            "squareMm": 30930.929
+        },
+        "weight": {
+            "lbPerFt": 35.67,
+            "kgPerM": 53.083
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 7.625,
+            "mm": 193.675
+        },
+        "flowArea": {
+            "squareInch": 45.664,
+            "squareMm": 29460.29
+        },
+        "weight": {
+            "lbPerFt": 43.43,
+            "kgPerM": 64.631
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 7.625,
+            "mm": 193.675
+        },
+        "flowArea": {
+            "squareInch": 45.664,
+            "squareMm": 29460.29
+        },
+        "weight": {
+            "lbPerFt": 43.43,
+            "kgPerM": 64.631
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.593,
+            "mm": 15.062
+        },
+        "insideDiameter": {
+            "inch": 7.439,
+            "mm": 188.951
+        },
+        "flowArea": {
+            "squareInch": 43.463,
+            "squareMm": 28040.544
+        },
+        "weight": {
+            "lbPerFt": 50.92,
+            "kgPerM": 75.777
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.719,
+            "mm": 18.263
+        },
+        "insideDiameter": {
+            "inch": 7.187,
+            "mm": 182.55
+        },
+        "flowArea": {
+            "squareInch": 40.568,
+            "squareMm": 26172.946
+        },
+        "weight": {
+            "lbPerFt": 60.77,
+            "kgPerM": 90.436
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.812,
+            "mm": 20.625
+        },
+        "insideDiameter": {
+            "inch": 7.001,
+            "mm": 177.825
+        },
+        "flowArea": {
+            "squareInch": 38.496,
+            "squareMm": 24835.761
+        },
+        "weight": {
+            "lbPerFt": 67.82,
+            "kgPerM": 100.927
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.906,
+            "mm": 23.012
+        },
+        "insideDiameter": {
+            "inch": 6.813,
+            "mm": 173.05
+        },
+        "flowArea": {
+            "squareInch": 36.456,
+            "squareMm": 23519.825
+        },
+        "weight": {
+            "lbPerFt": 74.76,
+            "kgPerM": 111.255
+        }
+    },
+    {
+        "pipeSize": "8",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 8.625,
+            "mm": 219.075
+        },
+        "wallThickness": {
+            "inch": 0.875,
+            "mm": 22.225
+        },
+        "insideDiameter": {
+            "inch": 6.875,
+            "mm": 174.625
+        },
+        "flowArea": {
+            "squareInch": 37.122,
+            "squareMm": 23949.846
+        },
+        "weight": {
+            "lbPerFt": 72.49,
+            "kgPerM": 107.877
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.134,
+            "mm": 3.404
+        },
+        "insideDiameter": {
+            "inch": 10.482,
+            "mm": 266.243
+        },
+        "flowArea": {
+            "squareInch": 86.294,
+            "squareMm": 55673.128
+        },
+        "weight": {
+            "lbPerFt": 15.21,
+            "kgPerM": 22.635
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.165,
+            "mm": 4.191
+        },
+        "insideDiameter": {
+            "inch": 10.42,
+            "mm": 264.668
+        },
+        "flowArea": {
+            "squareInch": 85.276,
+            "squareMm": 55016.474
+        },
+        "weight": {
+            "lbPerFt": 18.67,
+            "kgPerM": 27.784
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 10.25,
+            "mm": 260.35
+        },
+        "flowArea": {
+            "squareInch": 82.516,
+            "squareMm": 53235.955
+        },
+        "weight": {
+            "lbPerFt": 28.06,
+            "kgPerM": 41.758
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.307,
+            "mm": 7.798
+        },
+        "insideDiameter": {
+            "inch": 10.136,
+            "mm": 257.454
+        },
+        "flowArea": {
+            "squareInch": 80.691,
+            "squareMm": 52058.364
+        },
+        "weight": {
+            "lbPerFt": 34.27,
+            "kgPerM": 50.999
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.365,
+            "mm": 9.271
+        },
+        "insideDiameter": {
+            "inch": 10.02,
+            "mm": 254.508
+        },
+        "flowArea": {
+            "squareInch": 78.854,
+            "squareMm": 50873.634
+        },
+        "weight": {
+            "lbPerFt": 40.52,
+            "kgPerM": 60.3
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.365,
+            "mm": 9.271
+        },
+        "insideDiameter": {
+            "inch": 10.02,
+            "mm": 254.508
+        },
+        "flowArea": {
+            "squareInch": 78.854,
+            "squareMm": 50873.634
+        },
+        "weight": {
+            "lbPerFt": 40.52,
+            "kgPerM": 60.3
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 9.75,
+            "mm": 247.65
+        },
+        "flowArea": {
+            "squareInch": 74.662,
+            "squareMm": 48168.88
+        },
+        "weight": {
+            "lbPerFt": 54.79,
+            "kgPerM": 81.537
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 9.75,
+            "mm": 247.65
+        },
+        "flowArea": {
+            "squareInch": 74.662,
+            "squareMm": 48168.88
+        },
+        "weight": {
+            "lbPerFt": 54.79,
+            "kgPerM": 81.537
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.594,
+            "mm": 15.088
+        },
+        "insideDiameter": {
+            "inch": 9.562,
+            "mm": 242.875
+        },
+        "flowArea": {
+            "squareInch": 71.81,
+            "squareMm": 46329.199
+        },
+        "weight": {
+            "lbPerFt": 64.49,
+            "kgPerM": 95.972
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.719,
+            "mm": 18.263
+        },
+        "insideDiameter": {
+            "inch": 9.312,
+            "mm": 236.525
+        },
+        "flowArea": {
+            "squareInch": 68.105,
+            "squareMm": 43938.3
+        },
+        "weight": {
+            "lbPerFt": 77.1,
+            "kgPerM": 114.737
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 0.844,
+            "mm": 21.438
+        },
+        "insideDiameter": {
+            "inch": 9.062,
+            "mm": 230.175
+        },
+        "flowArea": {
+            "squareInch": 64.497,
+            "squareMm": 41610.739
+        },
+        "weight": {
+            "lbPerFt": 89.38,
+            "kgPerM": 133.012
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 1.0,
+            "mm": 25.4
+        },
+        "insideDiameter": {
+            "inch": 8.75,
+            "mm": 222.25
+        },
+        "flowArea": {
+            "squareInch": 60.132,
+            "squareMm": 38794.791
+        },
+        "weight": {
+            "lbPerFt": 104.23,
+            "kgPerM": 155.111
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 1.125,
+            "mm": 28.575
+        },
+        "insideDiameter": {
+            "inch": 8.5,
+            "mm": 215.9
+        },
+        "flowArea": {
+            "squareInch": 56.745,
+            "squareMm": 36609.615
+        },
+        "weight": {
+            "lbPerFt": 115.75,
+            "kgPerM": 172.255
+        }
+    },
+    {
+        "pipeSize": "10",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "wallThickness": {
+            "inch": 1.0,
+            "mm": 25.4
+        },
+        "insideDiameter": {
+            "inch": 8.75,
+            "mm": 222.25
+        },
+        "flowArea": {
+            "squareInch": 60.132,
+            "squareMm": 38794.791
+        },
+        "weight": {
+            "lbPerFt": 104.23,
+            "kgPerM": 155.111
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "5",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.165,
+            "mm": 4.191
+        },
+        "insideDiameter": {
+            "inch": 12.42,
+            "mm": 315.468
+        },
+        "flowArea": {
+            "squareInch": 121.153,
+            "squareMm": 78162.872
+        },
+        "weight": {
+            "lbPerFt": 22.2,
+            "kgPerM": 33.037
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.18,
+            "mm": 4.572
+        },
+        "insideDiameter": {
+            "inch": 12.39,
+            "mm": 314.706
+        },
+        "flowArea": {
+            "squareInch": 120.568,
+            "squareMm": 77785.729
+        },
+        "weight": {
+            "lbPerFt": 24.19,
+            "kgPerM": 35.999
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 12.25,
+            "mm": 311.15
+        },
+        "flowArea": {
+            "squareInch": 117.859,
+            "squareMm": 76037.791
+        },
+        "weight": {
+            "lbPerFt": 33.41,
+            "kgPerM": 49.72
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.33,
+            "mm": 8.382
+        },
+        "insideDiameter": {
+            "inch": 12.09,
+            "mm": 307.086
+        },
+        "flowArea": {
+            "squareInch": 114.8,
+            "squareMm": 74064.469
+        },
+        "weight": {
+            "lbPerFt": 43.81,
+            "kgPerM": 65.196
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 12.0,
+            "mm": 304.8
+        },
+        "flowArea": {
+            "squareInch": 113.097,
+            "squareMm": 72965.877
+        },
+        "weight": {
+            "lbPerFt": 49.61,
+            "kgPerM": 73.828
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.406,
+            "mm": 10.312
+        },
+        "insideDiameter": {
+            "inch": 11.938,
+            "mm": 303.225
+        },
+        "flowArea": {
+            "squareInch": 111.932,
+            "squareMm": 72213.844
+        },
+        "weight": {
+            "lbPerFt": 53.57,
+            "kgPerM": 79.721
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.562,
+            "mm": 14.275
+        },
+        "insideDiameter": {
+            "inch": 11.626,
+            "mm": 295.3
+        },
+        "flowArea": {
+            "squareInch": 106.157,
+            "squareMm": 68488.547
+        },
+        "weight": {
+            "lbPerFt": 73.22,
+            "kgPerM": 108.963
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 11.75,
+            "mm": 298.45
+        },
+        "flowArea": {
+            "squareInch": 108.434,
+            "squareMm": 69957.301
+        },
+        "weight": {
+            "lbPerFt": 65.48,
+            "kgPerM": 97.445
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.688,
+            "mm": 17.475
+        },
+        "insideDiameter": {
+            "inch": 11.374,
+            "mm": 288.9
+        },
+        "flowArea": {
+            "squareInch": 101.605,
+            "squareMm": 65551.67
+        },
+        "weight": {
+            "lbPerFt": 88.71,
+            "kgPerM": 132.015
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 0.844,
+            "mm": 21.438
+        },
+        "insideDiameter": {
+            "inch": 11.062,
+            "mm": 280.975
+        },
+        "flowArea": {
+            "squareInch": 96.107,
+            "squareMm": 62004.702
+        },
+        "weight": {
+            "lbPerFt": 107.42,
+            "kgPerM": 159.859
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 1.0,
+            "mm": 25.4
+        },
+        "insideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "flowArea": {
+            "squareInch": 90.763,
+            "squareMm": 58556.383
+        },
+        "weight": {
+            "lbPerFt": 125.61,
+            "kgPerM": 186.928
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 1.125,
+            "mm": 28.575
+        },
+        "insideDiameter": {
+            "inch": 10.5,
+            "mm": 266.7
+        },
+        "flowArea": {
+            "squareInch": 86.59,
+            "squareMm": 55864.5
+        },
+        "weight": {
+            "lbPerFt": 139.81,
+            "kgPerM": 208.06
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 1.312,
+            "mm": 33.325
+        },
+        "insideDiameter": {
+            "inch": 10.126,
+            "mm": 257.2
+        },
+        "flowArea": {
+            "squareInch": 80.531,
+            "squareMm": 51955.695
+        },
+        "weight": {
+            "lbPerFt": 160.42,
+            "kgPerM": 238.731
+        }
+    },
+    {
+        "pipeSize": "12",
+        "schedule": "XXH",
+        "outsideDiameter": {
+            "inch": 12.75,
+            "mm": 323.85
+        },
+        "wallThickness": {
+            "inch": 1.0,
+            "mm": 25.4
+        },
+        "insideDiameter": {
+            "inch": 10.75,
+            "mm": 273.05
+        },
+        "flowArea": {
+            "squareInch": 90.763,
+            "squareMm": 58556.383
+        },
+        "weight": {
+            "lbPerFt": 125.61,
+            "kgPerM": 186.928
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 13.5,
+            "mm": 342.9
+        },
+        "flowArea": {
+            "squareInch": 143.139,
+            "squareMm": 92347.438
+        },
+        "weight": {
+            "lbPerFt": 36.75,
+            "kgPerM": 54.69
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 13.376,
+            "mm": 339.75
+        },
+        "flowArea": {
+            "squareInch": 140.521,
+            "squareMm": 90658.773
+        },
+        "weight": {
+            "lbPerFt": 45.65,
+            "kgPerM": 67.935
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 13.25,
+            "mm": 336.55
+        },
+        "flowArea": {
+            "squareInch": 137.886,
+            "squareMm": 88958.832
+        },
+        "weight": {
+            "lbPerFt": 54.62,
+            "kgPerM": 81.284
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 13.25,
+            "mm": 336.55
+        },
+        "flowArea": {
+            "squareInch": 137.886,
+            "squareMm": 88958.832
+        },
+        "weight": {
+            "lbPerFt": 54.62,
+            "kgPerM": 81.284
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.438,
+            "mm": 11.125
+        },
+        "insideDiameter": {
+            "inch": 13.124,
+            "mm": 333.35
+        },
+        "flowArea": {
+            "squareInch": 135.276,
+            "squareMm": 87274.98
+        },
+        "weight": {
+            "lbPerFt": 63.5,
+            "kgPerM": 94.498
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.594,
+            "mm": 15.088
+        },
+        "insideDiameter": {
+            "inch": 12.812,
+            "mm": 325.425
+        },
+        "flowArea": {
+            "squareInch": 128.921,
+            "squareMm": 83174.687
+        },
+        "weight": {
+            "lbPerFt": 85.13,
+            "kgPerM": 126.687
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 13.0,
+            "mm": 330.2
+        },
+        "flowArea": {
+            "squareInch": 132.732,
+            "squareMm": 85633.564
+        },
+        "weight": {
+            "lbPerFt": 72.16,
+            "kgPerM": 107.386
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.75,
+            "mm": 19.05
+        },
+        "insideDiameter": {
+            "inch": 12.5,
+            "mm": 317.5
+        },
+        "flowArea": {
+            "squareInch": 122.718,
+            "squareMm": 79173.044
+        },
+        "weight": {
+            "lbPerFt": 106.23,
+            "kgPerM": 158.088
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 0.937,
+            "mm": 23.8
+        },
+        "insideDiameter": {
+            "inch": 12.126,
+            "mm": 308.0
+        },
+        "flowArea": {
+            "squareInch": 115.485,
+            "squareMm": 74506.205
+        },
+        "weight": {
+            "lbPerFt": 130.85,
+            "kgPerM": 194.726
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 1.093,
+            "mm": 27.762
+        },
+        "insideDiameter": {
+            "inch": 11.814,
+            "mm": 300.076
+        },
+        "flowArea": {
+            "squareInch": 109.618,
+            "squareMm": 70721.465
+        },
+        "weight": {
+            "lbPerFt": 150.81,
+            "kgPerM": 224.43
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 1.25,
+            "mm": 31.75
+        },
+        "insideDiameter": {
+            "inch": 11.5,
+            "mm": 292.1
+        },
+        "flowArea": {
+            "squareInch": 103.869,
+            "squareMm": 67012.064
+        },
+        "weight": {
+            "lbPerFt": 170.37,
+            "kgPerM": 253.538
+        }
+    },
+    {
+        "pipeSize": "14",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 14.0,
+            "mm": 355.6
+        },
+        "wallThickness": {
+            "inch": 1.406,
+            "mm": 35.712
+        },
+        "insideDiameter": {
+            "inch": 11.188,
+            "mm": 284.175
+        },
+        "flowArea": {
+            "squareInch": 98.309,
+            "squareMm": 63425.256
+        },
+        "weight": {
+            "lbPerFt": 189.29,
+            "kgPerM": 281.695
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 15.5,
+            "mm": 393.7
+        },
+        "flowArea": {
+            "squareInch": 188.692,
+            "squareMm": 121736.472
+        },
+        "weight": {
+            "lbPerFt": 42.09,
+            "kgPerM": 62.637
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 15.376,
+            "mm": 390.55
+        },
+        "flowArea": {
+            "squareInch": 185.685,
+            "squareMm": 119796.479
+        },
+        "weight": {
+            "lbPerFt": 52.32,
+            "kgPerM": 77.861
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 15.25,
+            "mm": 387.35
+        },
+        "flowArea": {
+            "squareInch": 182.654,
+            "squareMm": 117841.158
+        },
+        "weight": {
+            "lbPerFt": 62.64,
+            "kgPerM": 93.219
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 15.25,
+            "mm": 387.35
+        },
+        "flowArea": {
+            "squareInch": 182.654,
+            "squareMm": 117841.158
+        },
+        "weight": {
+            "lbPerFt": 62.64,
+            "kgPerM": 93.219
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 15.0,
+            "mm": 381.0
+        },
+        "flowArea": {
+            "squareInch": 176.715,
+            "squareMm": 114009.183
+        },
+        "weight": {
+            "lbPerFt": 82.85,
+            "kgPerM": 123.294
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.656,
+            "mm": 16.662
+        },
+        "insideDiameter": {
+            "inch": 14.688,
+            "mm": 373.075
+        },
+        "flowArea": {
+            "squareInch": 169.44,
+            "squareMm": 109315.726
+        },
+        "weight": {
+            "lbPerFt": 107.6,
+            "kgPerM": 160.126
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 15.0,
+            "mm": 381.0
+        },
+        "flowArea": {
+            "squareInch": 176.715,
+            "squareMm": 114009.183
+        },
+        "weight": {
+            "lbPerFt": 82.85,
+            "kgPerM": 123.294
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 0.844,
+            "mm": 21.438
+        },
+        "insideDiameter": {
+            "inch": 14.312,
+            "mm": 363.525
+        },
+        "flowArea": {
+            "squareInch": 160.876,
+            "squareMm": 103790.587
+        },
+        "weight": {
+            "lbPerFt": 136.74,
+            "kgPerM": 203.492
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 1.031,
+            "mm": 26.187
+        },
+        "insideDiameter": {
+            "inch": 13.938,
+            "mm": 354.025
+        },
+        "flowArea": {
+            "squareInch": 152.578,
+            "squareMm": 98436.97
+        },
+        "weight": {
+            "lbPerFt": 164.98,
+            "kgPerM": 245.517
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 1.219,
+            "mm": 30.963
+        },
+        "insideDiameter": {
+            "inch": 13.562,
+            "mm": 344.475
+        },
+        "flowArea": {
+            "squareInch": 144.457,
+            "squareMm": 93197.614
+        },
+        "weight": {
+            "lbPerFt": 192.61,
+            "kgPerM": 286.635
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 1.438,
+            "mm": 36.525
+        },
+        "insideDiameter": {
+            "inch": 13.124,
+            "mm": 333.35
+        },
+        "flowArea": {
+            "squareInch": 135.276,
+            "squareMm": 87274.98
+        },
+        "weight": {
+            "lbPerFt": 223.85,
+            "kgPerM": 333.125
+        }
+    },
+    {
+        "pipeSize": "16",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 16.0,
+            "mm": 406.4
+        },
+        "wallThickness": {
+            "inch": 1.594,
+            "mm": 40.488
+        },
+        "insideDiameter": {
+            "inch": 12.812,
+            "mm": 325.425
+        },
+        "flowArea": {
+            "squareInch": 128.921,
+            "squareMm": 83174.687
+        },
+        "weight": {
+            "lbPerFt": 245.48,
+            "kgPerM": 365.314
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 17.5,
+            "mm": 444.5
+        },
+        "flowArea": {
+            "squareInch": 240.528,
+            "squareMm": 155179.165
+        },
+        "weight": {
+            "lbPerFt": 47.44,
+            "kgPerM": 70.598
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 17.376,
+            "mm": 441.35
+        },
+        "flowArea": {
+            "squareInch": 237.132,
+            "squareMm": 152987.846
+        },
+        "weight": {
+            "lbPerFt": 58.99,
+            "kgPerM": 87.787
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.438,
+            "mm": 11.125
+        },
+        "insideDiameter": {
+            "inch": 17.124,
+            "mm": 434.95
+        },
+        "flowArea": {
+            "squareInch": 230.303,
+            "squareMm": 148582.531
+        },
+        "weight": {
+            "lbPerFt": 82.23,
+            "kgPerM": 122.372
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 17.25,
+            "mm": 438.15
+        },
+        "flowArea": {
+            "squareInch": 233.705,
+            "squareMm": 150777.144
+        },
+        "weight": {
+            "lbPerFt": 70.65,
+            "kgPerM": 105.139
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.562,
+            "mm": 14.275
+        },
+        "insideDiameter": {
+            "inch": 16.876,
+            "mm": 428.65
+        },
+        "flowArea": {
+            "squareInch": 223.681,
+            "squareMm": 144309.974
+        },
+        "weight": {
+            "lbPerFt": 104.76,
+            "kgPerM": 155.9
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.75,
+            "mm": 19.05
+        },
+        "insideDiameter": {
+            "inch": 16.5,
+            "mm": 419.1
+        },
+        "flowArea": {
+            "squareInch": 213.825,
+            "squareMm": 137951.111
+        },
+        "weight": {
+            "lbPerFt": 138.3,
+            "kgPerM": 205.813
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 17.0,
+            "mm": 431.8
+        },
+        "flowArea": {
+            "squareInch": 226.98,
+            "squareMm": 146438.461
+        },
+        "weight": {
+            "lbPerFt": 93.54,
+            "kgPerM": 139.203
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 0.938,
+            "mm": 23.825
+        },
+        "insideDiameter": {
+            "inch": 16.124,
+            "mm": 409.55
+        },
+        "flowArea": {
+            "squareInch": 204.19,
+            "squareMm": 131735.521
+        },
+        "weight": {
+            "lbPerFt": 171.08,
+            "kgPerM": 254.595
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 1.156,
+            "mm": 29.362
+        },
+        "insideDiameter": {
+            "inch": 15.688,
+            "mm": 398.475
+        },
+        "flowArea": {
+            "squareInch": 193.297,
+            "squareMm": 124707.472
+        },
+        "weight": {
+            "lbPerFt": 208.15,
+            "kgPerM": 309.761
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 1.375,
+            "mm": 34.925
+        },
+        "insideDiameter": {
+            "inch": 15.25,
+            "mm": 387.35
+        },
+        "flowArea": {
+            "squareInch": 182.654,
+            "squareMm": 117841.158
+        },
+        "weight": {
+            "lbPerFt": 244.37,
+            "kgPerM": 363.663
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 1.562,
+            "mm": 39.675
+        },
+        "insideDiameter": {
+            "inch": 14.876,
+            "mm": 377.85
+        },
+        "flowArea": {
+            "squareInch": 173.805,
+            "squareMm": 112132.022
+        },
+        "weight": {
+            "lbPerFt": 274.48,
+            "kgPerM": 408.471
+        }
+    },
+    {
+        "pipeSize": "18",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 18.0,
+            "mm": 457.2
+        },
+        "wallThickness": {
+            "inch": 1.781,
+            "mm": 45.237
+        },
+        "insideDiameter": {
+            "inch": 14.438,
+            "mm": 366.725
+        },
+        "flowArea": {
+            "squareInch": 163.721,
+            "squareMm": 105626.135
+        },
+        "weight": {
+            "lbPerFt": 308.79,
+            "kgPerM": 459.53
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 19.5,
+            "mm": 495.3
+        },
+        "flowArea": {
+            "squareInch": 298.648,
+            "squareMm": 192675.519
+        },
+        "weight": {
+            "lbPerFt": 52.78,
+            "kgPerM": 78.545
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 19.25,
+            "mm": 488.95
+        },
+        "flowArea": {
+            "squareInch": 291.039,
+            "squareMm": 187766.79
+        },
+        "weight": {
+            "lbPerFt": 78.67,
+            "kgPerM": 117.074
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 19.0,
+            "mm": 482.6
+        },
+        "flowArea": {
+            "squareInch": 283.529,
+            "squareMm": 182921.4
+        },
+        "weight": {
+            "lbPerFt": 104.23,
+            "kgPerM": 155.111
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 19.25,
+            "mm": 488.95
+        },
+        "flowArea": {
+            "squareInch": 291.039,
+            "squareMm": 187766.79
+        },
+        "weight": {
+            "lbPerFt": 78.67,
+            "kgPerM": 117.074
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 0.594,
+            "mm": 15.088
+        },
+        "insideDiameter": {
+            "inch": 18.812,
+            "mm": 477.825
+        },
+        "flowArea": {
+            "squareInch": 277.946,
+            "squareMm": 179319.391
+        },
+        "weight": {
+            "lbPerFt": 123.23,
+            "kgPerM": 183.386
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 0.812,
+            "mm": 20.625
+        },
+        "insideDiameter": {
+            "inch": 18.376,
+            "mm": 466.75
+        },
+        "flowArea": {
+            "squareInch": 265.211,
+            "squareMm": 171103.652
+        },
+        "weight": {
+            "lbPerFt": 166.56,
+            "kgPerM": 247.869
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 19.0,
+            "mm": 482.6
+        },
+        "flowArea": {
+            "squareInch": 283.529,
+            "squareMm": 182921.4
+        },
+        "weight": {
+            "lbPerFt": 104.23,
+            "kgPerM": 155.111
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 1.031,
+            "mm": 26.187
+        },
+        "insideDiameter": {
+            "inch": 17.938,
+            "mm": 455.625
+        },
+        "flowArea": {
+            "squareInch": 252.719,
+            "squareMm": 163044.2
+        },
+        "weight": {
+            "lbPerFt": 209.06,
+            "kgPerM": 311.116
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 1.281,
+            "mm": 32.537
+        },
+        "insideDiameter": {
+            "inch": 17.438,
+            "mm": 442.925
+        },
+        "flowArea": {
+            "squareInch": 238.827,
+            "squareMm": 154081.558
+        },
+        "weight": {
+            "lbPerFt": 256.34,
+            "kgPerM": 381.476
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 1.5,
+            "mm": 38.1
+        },
+        "insideDiameter": {
+            "inch": 17.0,
+            "mm": 431.8
+        },
+        "flowArea": {
+            "squareInch": 226.98,
+            "squareMm": 146438.461
+        },
+        "weight": {
+            "lbPerFt": 296.65,
+            "kgPerM": 441.464
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 1.75,
+            "mm": 44.45
+        },
+        "insideDiameter": {
+            "inch": 16.5,
+            "mm": 419.1
+        },
+        "flowArea": {
+            "squareInch": 213.825,
+            "squareMm": 137951.111
+        },
+        "weight": {
+            "lbPerFt": 341.41,
+            "kgPerM": 508.074
+        }
+    },
+    {
+        "pipeSize": "20",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 20.0,
+            "mm": 508.0
+        },
+        "wallThickness": {
+            "inch": 1.969,
+            "mm": 50.013
+        },
+        "insideDiameter": {
+            "inch": 16.062,
+            "mm": 407.975
+        },
+        "flowArea": {
+            "squareInch": 202.623,
+            "squareMm": 130724.37
+        },
+        "weight": {
+            "lbPerFt": 379.53,
+            "kgPerM": 564.803
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 21.5,
+            "mm": 546.1
+        },
+        "flowArea": {
+            "squareInch": 363.05,
+            "squareMm": 234225.532
+        },
+        "weight": {
+            "lbPerFt": 58.13,
+            "kgPerM": 86.507
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 21.25,
+            "mm": 539.75
+        },
+        "flowArea": {
+            "squareInch": 354.656,
+            "squareMm": 228810.096
+        },
+        "weight": {
+            "lbPerFt": 86.69,
+            "kgPerM": 129.009
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 21.0,
+            "mm": 533.4
+        },
+        "flowArea": {
+            "squareInch": 346.361,
+            "squareMm": 223457.998
+        },
+        "weight": {
+            "lbPerFt": 114.92,
+            "kgPerM": 171.02
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 21.25,
+            "mm": 539.75
+        },
+        "flowArea": {
+            "squareInch": 354.656,
+            "squareMm": 228810.096
+        },
+        "weight": {
+            "lbPerFt": 86.69,
+            "kgPerM": 129.009
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 0.875,
+            "mm": 22.225
+        },
+        "insideDiameter": {
+            "inch": 20.25,
+            "mm": 514.35
+        },
+        "flowArea": {
+            "squareInch": 322.062,
+            "squareMm": 207781.736
+        },
+        "weight": {
+            "lbPerFt": 197.6,
+            "kgPerM": 294.061
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 21.0,
+            "mm": 533.4
+        },
+        "flowArea": {
+            "squareInch": 346.361,
+            "squareMm": 223457.998
+        },
+        "weight": {
+            "lbPerFt": 114.92,
+            "kgPerM": 171.02
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 1.125,
+            "mm": 28.575
+        },
+        "insideDiameter": {
+            "inch": 19.75,
+            "mm": 501.65
+        },
+        "flowArea": {
+            "squareInch": 306.354,
+            "squareMm": 197647.586
+        },
+        "weight": {
+            "lbPerFt": 251.05,
+            "kgPerM": 373.604
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 1.375,
+            "mm": 34.925
+        },
+        "insideDiameter": {
+            "inch": 19.25,
+            "mm": 488.95
+        },
+        "flowArea": {
+            "squareInch": 291.039,
+            "squareMm": 187766.79
+        },
+        "weight": {
+            "lbPerFt": 303.16,
+            "kgPerM": 451.152
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 1.625,
+            "mm": 41.275
+        },
+        "insideDiameter": {
+            "inch": 18.75,
+            "mm": 476.25
+        },
+        "flowArea": {
+            "squareInch": 276.117,
+            "squareMm": 178139.348
+        },
+        "weight": {
+            "lbPerFt": 353.94,
+            "kgPerM": 526.721
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 1.875,
+            "mm": 47.625
+        },
+        "insideDiameter": {
+            "inch": 18.25,
+            "mm": 463.55
+        },
+        "flowArea": {
+            "squareInch": 261.587,
+            "squareMm": 168765.26
+        },
+        "weight": {
+            "lbPerFt": 403.38,
+            "kgPerM": 600.296
+        }
+    },
+    {
+        "pipeSize": "22",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 22.0,
+            "mm": 558.8
+        },
+        "wallThickness": {
+            "inch": 2.125,
+            "mm": 53.975
+        },
+        "insideDiameter": {
+            "inch": 17.75,
+            "mm": 450.85
+        },
+        "flowArea": {
+            "squareInch": 247.45,
+            "squareMm": 159644.525
+        },
+        "weight": {
+            "lbPerFt": 451.49,
+            "kgPerM": 671.891
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 0.25,
+            "mm": 6.35
+        },
+        "insideDiameter": {
+            "inch": 23.5,
+            "mm": 596.9
+        },
+        "flowArea": {
+            "squareInch": 433.736,
+            "squareMm": 279829.205
+        },
+        "weight": {
+            "lbPerFt": 63.47,
+            "kgPerM": 94.454
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 23.25,
+            "mm": 590.55
+        },
+        "flowArea": {
+            "squareInch": 424.557,
+            "squareMm": 273907.062
+        },
+        "weight": {
+            "lbPerFt": 94.71,
+            "kgPerM": 140.944
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 0.562,
+            "mm": 14.275
+        },
+        "insideDiameter": {
+            "inch": 22.876,
+            "mm": 581.05
+        },
+        "flowArea": {
+            "squareInch": 411.008,
+            "squareMm": 265165.788
+        },
+        "weight": {
+            "lbPerFt": 140.81,
+            "kgPerM": 209.548
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 23.25,
+            "mm": 590.55
+        },
+        "flowArea": {
+            "squareInch": 424.557,
+            "squareMm": 273907.062
+        },
+        "weight": {
+            "lbPerFt": 94.71,
+            "kgPerM": 140.944
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 0.688,
+            "mm": 17.475
+        },
+        "insideDiameter": {
+            "inch": 22.624,
+            "mm": 574.65
+        },
+        "flowArea": {
+            "squareInch": 402.002,
+            "squareMm": 259355.88
+        },
+        "weight": {
+            "lbPerFt": 171.45,
+            "kgPerM": 255.146
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "60",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 0.969,
+            "mm": 24.613
+        },
+        "insideDiameter": {
+            "inch": 22.062,
+            "mm": 560.375
+        },
+        "flowArea": {
+            "squareInch": 382.278,
+            "squareMm": 246630.666
+        },
+        "weight": {
+            "lbPerFt": 238.57,
+            "kgPerM": 355.031
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 23.0,
+            "mm": 584.2
+        },
+        "flowArea": {
+            "squareInch": 415.476,
+            "squareMm": 268048.256
+        },
+        "weight": {
+            "lbPerFt": 125.61,
+            "kgPerM": 186.928
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "80",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 1.219,
+            "mm": 30.963
+        },
+        "insideDiameter": {
+            "inch": 21.562,
+            "mm": 547.675
+        },
+        "flowArea": {
+            "squareInch": 365.147,
+            "squareMm": 235578.362
+        },
+        "weight": {
+            "lbPerFt": 296.86,
+            "kgPerM": 441.776
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "100",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 1.531,
+            "mm": 38.887
+        },
+        "insideDiameter": {
+            "inch": 20.938,
+            "mm": 531.825
+        },
+        "flowArea": {
+            "squareInch": 344.318,
+            "squareMm": 222140.48
+        },
+        "weight": {
+            "lbPerFt": 367.74,
+            "kgPerM": 547.257
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "120",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 1.812,
+            "mm": 46.025
+        },
+        "insideDiameter": {
+            "inch": 20.376,
+            "mm": 517.55
+        },
+        "flowArea": {
+            "squareInch": 326.083,
+            "squareMm": 210375.508
+        },
+        "weight": {
+            "lbPerFt": 429.79,
+            "kgPerM": 639.598
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "140",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 2.062,
+            "mm": 52.375
+        },
+        "insideDiameter": {
+            "inch": 19.876,
+            "mm": 504.85
+        },
+        "flowArea": {
+            "squareInch": 310.276,
+            "squareMm": 200177.514
+        },
+        "weight": {
+            "lbPerFt": 483.57,
+            "kgPerM": 719.631
+        }
+    },
+    {
+        "pipeSize": "24",
+        "schedule": "160",
+        "outsideDiameter": {
+            "inch": 24.0,
+            "mm": 609.6
+        },
+        "wallThickness": {
+            "inch": 2.343,
+            "mm": 59.512
+        },
+        "insideDiameter": {
+            "inch": 19.314,
+            "mm": 490.576
+        },
+        "flowArea": {
+            "squareInch": 292.978,
+            "squareMm": 189017.393
+        },
+        "weight": {
+            "lbPerFt": 542.44,
+            "kgPerM": 807.24
+        }
+    },
+    {
+        "pipeSize": "26",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 26.0,
+            "mm": 660.4
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 25.376,
+            "mm": 644.55
+        },
+        "flowArea": {
+            "squareInch": 505.75,
+            "squareMm": 326289.911
+        },
+        "weight": {
+            "lbPerFt": 85.68,
+            "kgPerM": 127.506
+        }
+    },
+    {
+        "pipeSize": "26",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 26.0,
+            "mm": 660.4
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 25.0,
+            "mm": 635.0
+        },
+        "flowArea": {
+            "squareInch": 490.874,
+            "squareMm": 316692.174
+        },
+        "weight": {
+            "lbPerFt": 136.3,
+            "kgPerM": 202.837
+        }
+    },
+    {
+        "pipeSize": "26",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 26.0,
+            "mm": 660.4
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 25.25,
+            "mm": 641.35
+        },
+        "flowArea": {
+            "squareInch": 500.74,
+            "squareMm": 323057.687
+        },
+        "weight": {
+            "lbPerFt": 102.72,
+            "kgPerM": 152.864
+        }
+    },
+    {
+        "pipeSize": "26",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 26.0,
+            "mm": 660.4
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 25.0,
+            "mm": 635.0
+        },
+        "flowArea": {
+            "squareInch": 490.874,
+            "squareMm": 316692.174
+        },
+        "weight": {
+            "lbPerFt": 136.3,
+            "kgPerM": 202.837
+        }
+    },
+    {
+        "pipeSize": "28",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 28.0,
+            "mm": 711.2
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 27.376,
+            "mm": 695.35
+        },
+        "flowArea": {
+            "squareInch": 588.613,
+            "squareMm": 379749.577
+        },
+        "weight": {
+            "lbPerFt": 92.35,
+            "kgPerM": 137.432
+        }
+    },
+    {
+        "pipeSize": "28",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 28.0,
+            "mm": 711.2
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 27.0,
+            "mm": 685.8
+        },
+        "flowArea": {
+            "squareInch": 572.555,
+            "squareMm": 369389.752
+        },
+        "weight": {
+            "lbPerFt": 146.99,
+            "kgPerM": 218.745
+        }
+    },
+    {
+        "pipeSize": "28",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 28.0,
+            "mm": 711.2
+        },
+        "wallThickness": {
+            "inch": 0.625,
+            "mm": 15.875
+        },
+        "insideDiameter": {
+            "inch": 26.75,
+            "mm": 679.45
+        },
+        "flowArea": {
+            "squareInch": 562.001,
+            "squareMm": 362580.871
+        },
+        "weight": {
+            "lbPerFt": 182.9,
+            "kgPerM": 272.185
+        }
+    },
+    {
+        "pipeSize": "28",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 28.0,
+            "mm": 711.2
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 27.25,
+            "mm": 692.15
+        },
+        "flowArea": {
+            "squareInch": 583.207,
+            "squareMm": 376261.972
+        },
+        "weight": {
+            "lbPerFt": 110.74,
+            "kgPerM": 164.799
+        }
+    },
+    {
+        "pipeSize": "28",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 28.0,
+            "mm": 711.2
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 27.0,
+            "mm": 685.8
+        },
+        "flowArea": {
+            "squareInch": 572.555,
+            "squareMm": 369389.752
+        },
+        "weight": {
+            "lbPerFt": 146.99,
+            "kgPerM": 218.745
+        }
+    },
+    {
+        "pipeSize": "30",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 30.0,
+            "mm": 762.0
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 29.376,
+            "mm": 746.15
+        },
+        "flowArea": {
+            "squareInch": 677.759,
+            "squareMm": 437262.903
+        },
+        "weight": {
+            "lbPerFt": 99.02,
+            "kgPerM": 147.358
+        }
+    },
+    {
+        "pipeSize": "30",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 30.0,
+            "mm": 762.0
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 29.0,
+            "mm": 736.6
+        },
+        "flowArea": {
+            "squareInch": 660.52,
+            "squareMm": 426140.99
+        },
+        "weight": {
+            "lbPerFt": 157.68,
+            "kgPerM": 234.654
+        }
+    },
+    {
+        "pipeSize": "30",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 30.0,
+            "mm": 762.0
+        },
+        "wallThickness": {
+            "inch": 0.625,
+            "mm": 15.875
+        },
+        "insideDiameter": {
+            "inch": 28.75,
+            "mm": 730.25
+        },
+        "flowArea": {
+            "squareInch": 649.181,
+            "squareMm": 418825.401
+        },
+        "weight": {
+            "lbPerFt": 196.26,
+            "kgPerM": 292.067
+        }
+    },
+    {
+        "pipeSize": "30",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 30.0,
+            "mm": 762.0
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 29.25,
+            "mm": 742.95
+        },
+        "flowArea": {
+            "squareInch": 671.957,
+            "squareMm": 433519.918
+        },
+        "weight": {
+            "lbPerFt": 118.76,
+            "kgPerM": 176.734
+        }
+    },
+    {
+        "pipeSize": "30",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 30.0,
+            "mm": 762.0
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 29.0,
+            "mm": 736.6
+        },
+        "flowArea": {
+            "squareInch": 660.52,
+            "squareMm": 426140.99
+        },
+        "weight": {
+            "lbPerFt": 157.68,
+            "kgPerM": 234.654
+        }
+    },
+    {
+        "pipeSize": "32",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 32.0,
+            "mm": 812.8
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 31.376,
+            "mm": 796.95
+        },
+        "flowArea": {
+            "squareInch": 773.188,
+            "squareMm": 498829.888
+        },
+        "weight": {
+            "lbPerFt": 105.69,
+            "kgPerM": 157.284
+        }
+    },
+    {
+        "pipeSize": "32",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 32.0,
+            "mm": 812.8
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 31.0,
+            "mm": 787.4
+        },
+        "flowArea": {
+            "squareInch": 754.768,
+            "squareMm": 486945.887
+        },
+        "weight": {
+            "lbPerFt": 168.37,
+            "kgPerM": 250.562
+        }
+    },
+    {
+        "pipeSize": "32",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 32.0,
+            "mm": 812.8
+        },
+        "wallThickness": {
+            "inch": 0.625,
+            "mm": 15.875
+        },
+        "insideDiameter": {
+            "inch": 30.75,
+            "mm": 781.05
+        },
+        "flowArea": {
+            "squareInch": 742.643,
+            "squareMm": 479123.591
+        },
+        "weight": {
+            "lbPerFt": 209.62,
+            "kgPerM": 311.949
+        }
+    },
+    {
+        "pipeSize": "32",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 32.0,
+            "mm": 812.8
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 31.25,
+            "mm": 793.75
+        },
+        "flowArea": {
+            "squareInch": 766.99,
+            "squareMm": 494831.523
+        },
+        "weight": {
+            "lbPerFt": 126.78,
+            "kgPerM": 188.669
+        }
+    },
+    {
+        "pipeSize": "32",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 32.0,
+            "mm": 812.8
+        },
+        "wallThickness": {
+            "inch": 0.688,
+            "mm": 17.475
+        },
+        "insideDiameter": {
+            "inch": 30.624,
+            "mm": 777.85
+        },
+        "flowArea": {
+            "squareInch": 736.569,
+            "squareMm": 475205.159
+        },
+        "weight": {
+            "lbPerFt": 230.29,
+            "kgPerM": 342.709
+        }
+    },
+    {
+        "pipeSize": "32",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 32.0,
+            "mm": 812.8
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 31.0,
+            "mm": 787.4
+        },
+        "flowArea": {
+            "squareInch": 754.768,
+            "squareMm": 486945.887
+        },
+        "weight": {
+            "lbPerFt": 168.37,
+            "kgPerM": 250.562
+        }
+    },
+    {
+        "pipeSize": "34",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 34.0,
+            "mm": 863.6
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 33.376,
+            "mm": 847.75
+        },
+        "flowArea": {
+            "squareInch": 874.9,
+            "squareMm": 564450.534
+        },
+        "weight": {
+            "lbPerFt": 112.36,
+            "kgPerM": 167.21
+        }
+    },
+    {
+        "pipeSize": "34",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 34.0,
+            "mm": 863.6
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 33.0,
+            "mm": 838.2
+        },
+        "flowArea": {
+            "squareInch": 855.299,
+            "squareMm": 551804.445
+        },
+        "weight": {
+            "lbPerFt": 179.06,
+            "kgPerM": 266.471
+        }
+    },
+    {
+        "pipeSize": "34",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 34.0,
+            "mm": 863.6
+        },
+        "wallThickness": {
+            "inch": 0.625,
+            "mm": 15.875
+        },
+        "insideDiameter": {
+            "inch": 32.75,
+            "mm": 831.85
+        },
+        "flowArea": {
+            "squareInch": 842.389,
+            "squareMm": 543475.441
+        },
+        "weight": {
+            "lbPerFt": 222.99,
+            "kgPerM": 331.846
+        }
+    },
+    {
+        "pipeSize": "34",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 34.0,
+            "mm": 863.6
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 33.25,
+            "mm": 844.55
+        },
+        "flowArea": {
+            "squareInch": 868.307,
+            "squareMm": 560196.787
+        },
+        "weight": {
+            "lbPerFt": 134.79,
+            "kgPerM": 200.59
+        }
+    },
+    {
+        "pipeSize": "34",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 34.0,
+            "mm": 863.6
+        },
+        "wallThickness": {
+            "inch": 0.688,
+            "mm": 17.475
+        },
+        "insideDiameter": {
+            "inch": 32.624,
+            "mm": 828.65
+        },
+        "flowArea": {
+            "squareInch": 835.919,
+            "squareMm": 539301.628
+        },
+        "weight": {
+            "lbPerFt": 245.0,
+            "kgPerM": 364.6
+        }
+    },
+    {
+        "pipeSize": "34",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 34.0,
+            "mm": 863.6
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 33.0,
+            "mm": 838.2
+        },
+        "flowArea": {
+            "squareInch": 855.299,
+            "squareMm": 551804.445
+        },
+        "weight": {
+            "lbPerFt": 179.06,
+            "kgPerM": 266.471
+        }
+    },
+    {
+        "pipeSize": "36",
+        "schedule": "10",
+        "outsideDiameter": {
+            "inch": 36.0,
+            "mm": 914.4
+        },
+        "wallThickness": {
+            "inch": 0.312,
+            "mm": 7.925
+        },
+        "insideDiameter": {
+            "inch": 35.376,
+            "mm": 898.55
+        },
+        "flowArea": {
+            "squareInch": 982.895,
+            "squareMm": 634124.839
+        },
+        "weight": {
+            "lbPerFt": 119.03,
+            "kgPerM": 177.136
+        }
+    },
+    {
+        "pipeSize": "36",
+        "schedule": "20",
+        "outsideDiameter": {
+            "inch": 36.0,
+            "mm": 914.4
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 35.0,
+            "mm": 889.0
+        },
+        "flowArea": {
+            "squareInch": 962.113,
+            "squareMm": 620716.662
+        },
+        "weight": {
+            "lbPerFt": 189.75,
+            "kgPerM": 282.379
+        }
+    },
+    {
+        "pipeSize": "36",
+        "schedule": "30",
+        "outsideDiameter": {
+            "inch": 36.0,
+            "mm": 914.4
+        },
+        "wallThickness": {
+            "inch": 0.625,
+            "mm": 15.875
+        },
+        "insideDiameter": {
+            "inch": 34.75,
+            "mm": 882.65
+        },
+        "flowArea": {
+            "squareInch": 948.417,
+            "squareMm": 611880.95
+        },
+        "weight": {
+            "lbPerFt": 236.35,
+            "kgPerM": 351.728
+        }
+    },
+    {
+        "pipeSize": "36",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 36.0,
+            "mm": 914.4
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 35.25,
+            "mm": 895.35
+        },
+        "flowArea": {
+            "squareInch": 975.906,
+            "squareMm": 629615.712
+        },
+        "weight": {
+            "lbPerFt": 142.81,
+            "kgPerM": 212.525
+        }
+    },
+    {
+        "pipeSize": "36",
+        "schedule": "40",
+        "outsideDiameter": {
+            "inch": 36.0,
+            "mm": 914.4
+        },
+        "wallThickness": {
+            "inch": 0.75,
+            "mm": 19.05
+        },
+        "insideDiameter": {
+            "inch": 34.5,
+            "mm": 876.3
+        },
+        "flowArea": {
+            "squareInch": 934.82,
+            "squareMm": 603108.577
+        },
+        "weight": {
+            "lbPerFt": 282.62,
+            "kgPerM": 420.585
+        }
+    },
+    {
+        "pipeSize": "36",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 36.0,
+            "mm": 914.4
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 35.0,
+            "mm": 889.0
+        },
+        "flowArea": {
+            "squareInch": 962.113,
+            "squareMm": 620716.662
+        },
+        "weight": {
+            "lbPerFt": 189.75,
+            "kgPerM": 282.379
+        }
+    },
+    {
+        "pipeSize": "42",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 42.0,
+            "mm": 1066.8
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 41.25,
+            "mm": 1047.75
+        },
+        "flowArea": {
+            "squareInch": 1336.404,
+            "squareMm": 862194.445
+        },
+        "weight": {
+            "lbPerFt": 166.86,
+            "kgPerM": 248.315
+        }
+    },
+    {
+        "pipeSize": "42",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 42.0,
+            "mm": 1066.8
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 41.0,
+            "mm": 1041.4
+        },
+        "flowArea": {
+            "squareInch": 1320.254,
+            "squareMm": 851775.272
+        },
+        "weight": {
+            "lbPerFt": 221.82,
+            "kgPerM": 330.105
+        }
+    },
+    {
+        "pipeSize": "48",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 48.0,
+            "mm": 1219.2
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 47.25,
+            "mm": 1200.15
+        },
+        "flowArea": {
+            "squareInch": 1753.45,
+            "squareMm": 1131256.116
+        },
+        "weight": {
+            "lbPerFt": 190.92,
+            "kgPerM": 284.12
+        }
+    },
+    {
+        "pipeSize": "48",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 48.0,
+            "mm": 1219.2
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 47.0,
+            "mm": 1193.8
+        },
+        "flowArea": {
+            "squareInch": 1734.945,
+            "squareMm": 1119316.821
+        },
+        "weight": {
+            "lbPerFt": 253.89,
+            "kgPerM": 377.83
+        }
+    },
+    {
+        "pipeSize": "54",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 54.0,
+            "mm": 1371.6
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 53.25,
+            "mm": 1352.55
+        },
+        "flowArea": {
+            "squareInch": 2227.046,
+            "squareMm": 1436800.726
+        },
+        "weight": {
+            "lbPerFt": 214.97,
+            "kgPerM": 319.911
+        }
+    },
+    {
+        "pipeSize": "54",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 54.0,
+            "mm": 1371.6
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 53.0,
+            "mm": 1346.2
+        },
+        "flowArea": {
+            "squareInch": 2206.183,
+            "squareMm": 1423341.309
+        },
+        "weight": {
+            "lbPerFt": 285.96,
+            "kgPerM": 425.555
+        }
+    },
+    {
+        "pipeSize": "60",
+        "schedule": "STD",
+        "outsideDiameter": {
+            "inch": 60.0,
+            "mm": 1524.0
+        },
+        "wallThickness": {
+            "inch": 0.375,
+            "mm": 9.525
+        },
+        "insideDiameter": {
+            "inch": 59.25,
+            "mm": 1504.95
+        },
+        "flowArea": {
+            "squareInch": 2757.189,
+            "squareMm": 1778828.275
+        },
+        "weight": {
+            "lbPerFt": 239.02,
+            "kgPerM": 355.701
+        }
+    },
+    {
+        "pipeSize": "60",
+        "schedule": "XH",
+        "outsideDiameter": {
+            "inch": 60.0,
+            "mm": 1524.0
+        },
+        "wallThickness": {
+            "inch": 0.5,
+            "mm": 12.7
+        },
+        "insideDiameter": {
+            "inch": 59.0,
+            "mm": 1498.6
+        },
+        "flowArea": {
+            "squareInch": 2733.971,
+            "squareMm": 1763848.735
+        },
+        "weight": {
+            "lbPerFt": 318.03,
+            "kgPerM": 473.281
+        }
+    }
+]
