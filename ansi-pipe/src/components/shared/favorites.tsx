@@ -3,19 +3,13 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { usePipeStore } from '@/store'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Heart, Trash2 } from 'lucide-react'
 
 export function Favorites() {
-  const { favorites, removeFavorite, setPipeSize, setSchedule } = usePipeStore()
+  const { favorites, removeFavorite, applySelection } = usePipeStore()
 
   if (favorites.length === 0) return null
-
-  function handleSelect(entry: (typeof favorites)[0]) {
-    setPipeSize(entry.pipeSize)
-    setTimeout(() => setSchedule(entry.schedule), 50)
-  }
 
   return (
     <motion.div
@@ -28,6 +22,9 @@ export function Favorites() {
           <div className="flex items-center gap-2">
             <Heart className="h-4 w-4 text-red-500" />
             <CardTitle className="text-sm">Favorites</CardTitle>
+            <span className="ml-auto text-xs text-muted-foreground">
+              {favorites.length}
+            </span>
           </div>
         </CardHeader>
         <CardContent className="pt-0">
@@ -43,11 +40,13 @@ export function Favorites() {
                     className="group flex items-center justify-between rounded-lg px-3 py-2 transition-colors hover:bg-muted"
                   >
                     <button
-                      onClick={() => handleSelect(entry)}
+                      onClick={() => applySelection(entry.pipeSize, entry.schedule)}
                       className="flex-1 text-left"
+                      aria-label={`Apply favorite ${entry.pipeSize} inch Schedule ${entry.schedule}`}
                     >
                       <span className="text-sm font-medium text-foreground">
-                        {entry.pipeSize}"
+{entry.pipeSize}&quot;
+                       
                       </span>
                       <span className="ml-2 text-xs text-muted-foreground">
                         Schedule {entry.schedule}
@@ -55,7 +54,8 @@ export function Favorites() {
                     </button>
                     <button
                       onClick={() => removeFavorite(entry.id)}
-                      className="opacity-0 transition-opacity group-hover:opacity-100"
+                      className="rounded-md p-1 opacity-0 transition-opacity group-hover:opacity-100 focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                      aria-label={`Remove favorite ${entry.pipeSize} inch Schedule ${entry.schedule}`}
                     >
                       <Trash2 className="h-3.5 w-3.5 text-muted-foreground hover:text-red-500" />
                     </button>

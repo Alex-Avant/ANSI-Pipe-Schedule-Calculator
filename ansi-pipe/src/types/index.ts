@@ -47,7 +47,4 @@ export interface SearchState {
   selectedSize: string | null
   selectedSchedule: string | null
   totalLength: number
-  thicknessSearch: string
 }
-
-export type Theme = 'light' | 'dark' | 'system'

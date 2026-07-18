@@ -11,10 +11,6 @@ export function PipeSelector() {
     value: size,
   }))
 
-  function handleSelect(value: string) {
-    setPipeSize(value)
-  }
-
   return (
     <div className="space-y-2">
       <label className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
@@ -24,7 +20,7 @@ export function PipeSelector() {
         options={options}
         placeholder="Select pipe size..."
         value={selectedSize || ''}
-        onChange={(e) => handleSelect(e.target.value)}
+        onChange={setPipeSize}
       />
     </div>
   )

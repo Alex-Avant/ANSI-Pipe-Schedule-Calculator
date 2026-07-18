@@ -31,7 +31,7 @@ export function ScheduleSelector() {
             : 'Select pipe size first'
         }
         value={selectedSchedule || ''}
-        onChange={(e) => handleSelect(e.target.value)}
+        onChange={handleSelect}
         disabled={!selectedSize || availableSchedules.length === 0}
       />
     </div>

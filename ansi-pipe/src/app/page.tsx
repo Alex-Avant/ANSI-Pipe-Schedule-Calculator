@@ -7,7 +7,7 @@ import { CalculationPanel } from '@/components/shared/calculation-panel'
 import { ExportActions } from '@/components/shared/export-actions'
 import { SearchHistory } from '@/components/shared/search-history'
 import { Favorites } from '@/components/shared/favorites'
-import { ThicknessSearch } from '@/components/shared/thickness-search'
+import { Footer } from '@/components/layout/footer'
 import { ServiceWorkerRegister } from '@/components/shared/service-worker-register'
 
 export default function Home() {
@@ -39,9 +39,10 @@ export default function Home() {
           <div className="space-y-6">
             <SearchHistory />
             <Favorites />
-            <ThicknessSearch />
           </div>
         </div>
+
+        <Footer />
       </div>
     </>
   )

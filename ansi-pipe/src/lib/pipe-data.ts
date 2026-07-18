@@ -27,13 +27,6 @@ export function findPipeData(size: string, schedule: string): PipeEntry | undefi
   )
 }
 
-export function searchPipesByThickness(mm: number): PipeEntry[] {
-  return data.filter((entry) => {
-    const diff = Math.abs(entry.wallThickness.mm - mm)
-    return diff <= 0.5
-  })
-}
-
 export function getAllSchedules(): string[] {
   const schedules = new Set<string>()
   data.forEach((entry) => schedules.add(entry.schedule))

@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from 'framer-motion'
 import { usePipeStore } from '@/store'
-import { Card, CardContent } from '@/components/ui/card'
+import { Card } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import { Badge } from '@/components/ui/badge'
 import {
@@ -26,20 +26,20 @@ function StatRow({
   metric: string
 }) {
   return (
-    <div className="flex items-center gap-3 rounded-xl bg-muted p-3 transition-colors hover:bg-muted/80">
-      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-card shadow-sm">
-        <Icon className="h-4 w-4 text-muted-foreground" />
+    <div className="flex items-center gap-3 rounded-xl bg-muted/60 p-3 transition-colors hover:bg-muted">
+      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-card shadow-sm ring-1 ring-border">
+        <Icon className="h-4 w-4 text-accent" />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-xs text-muted-foreground">{label}</p>
-        <div className="flex items-center gap-2">
-          <span className="text-sm font-medium text-foreground">
+        <p className="text-[11px] uppercase tracking-wide text-muted-foreground">
+          {label}
+        </p>
+        <div className="flex items-baseline gap-2">
+          <span className="text-sm font-semibold text-foreground">
             {imperial}
           </span>
-          <span className="text-xs text-muted-foreground">|</span>
-          <span className="text-xs text-muted-foreground">
-            {metric}
-          </span>
+          <span className="text-xs text-muted-foreground">·</span>
+          <span className="text-xs text-muted-foreground">{metric}</span>
         </div>
       </div>
     </div>
@@ -63,15 +63,16 @@ export function ResultCard() {
         <Card className="overflow-hidden">
           <div
             id="pipe-result-card"
-            className="bg-gradient-to-br from-background to-card p-6"
+            className="bg-gradient-to-br from-background to-card p-5 sm:p-6"
           >
-            <div className="mb-6 flex items-center justify-between">
-              <div>
-                <h3 className="text-xl font-semibold text-foreground">
-                  {result.pipeSize}"
+            <div className="mb-5 flex items-start justify-between gap-3">
+              <div className="min-w-0">
+                <h3 className="text-2xl font-semibold tracking-tight text-foreground">
+{result.pipeSize}&quot;
+                 
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Nominal Pipe Size • Schedule {result.schedule}
+                  Nominal Pipe Size · Schedule {result.schedule}
                 </p>
               </div>
               <Badge variant="secondary" className="text-xs">
@@ -79,7 +80,7 @@ export function ResultCard() {
               </Badge>
             </div>
 
-            <Separator className="mb-5" />
+            <Separator className="mb-4" />
 
             <div className="grid gap-2.5 sm:grid-cols-2">
               <StatRow
@@ -120,25 +121,22 @@ export function ResultCard() {
               />
             </div>
 
-            <Separator className="my-5" />
+            <Separator className="my-4" />
 
-            <div className="rounded-xl bg-primary p-4">
-              <div className="flex items-center justify-between">
+            <div className="rounded-xl bg-primary p-4 text-primary-foreground">
+              <p className="mb-2 text-[11px] uppercase tracking-wide text-primary-foreground/70">
+                For {calculations.totalLength} ft length
+              </p>
+              <div className="grid grid-cols-2 gap-3">
                 <div>
                   <p className="text-xs text-primary-foreground/70">Total Weight</p>
-                  <p className="text-lg font-semibold text-primary-foreground">
+                  <p className="text-lg font-semibold">
                     {calculations.weightPerLength.lb} lb
                   </p>
                 </div>
                 <div className="text-right">
-                  <p className="text-xs text-primary-foreground/70">Length</p>
-                  <p className="text-lg font-semibold text-primary-foreground">
-                    {calculations.totalLength} ft
-                  </p>
-                </div>
-                <div className="text-right">
                   <p className="text-xs text-primary-foreground/70">Metric</p>
-                  <p className="text-lg font-semibold text-primary-foreground">
+                  <p className="text-lg font-semibold">
                     {calculations.weightPerLength.kg} kg
                   </p>
                 </div>

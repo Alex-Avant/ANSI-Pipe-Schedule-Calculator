@@ -101,14 +101,16 @@ export async function shareAsImage(
 export async function shareResults(
   pipe: PipeEntry,
   calculations: PipeCalculations
-): Promise<void> {
+): Promise<boolean> {
   const text = `ANSI Pipe: ${pipe.pipeSize}" Schedule ${pipe.schedule}
 OD: ${pipe.outsideDiameter.inch}" | WT: ${pipe.wallThickness.inch}"
 ID: ${calculations.insideDiameter.inch}" | Weight: ${pipe.weight.lbPerFt} lb/ft`
 
   if (navigator.share) {
     await navigator.share({ title: 'Pipe Schedule Result', text })
+    return true
   } else {
     await copyResultsToClipboard(pipe, calculations)
+    return false
   }
 }

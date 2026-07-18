@@ -40,7 +40,8 @@ export function CalculationPanel() {
                     Inside Diameter
                   </p>
                   <p className="text-sm font-semibold text-foreground">
-                    {calculations.insideDiameter.inch}"
+                    {calculations.insideDiameter.inch}&quot;
+                   
                   </p>
                   <p className="text-xs text-muted-foreground">
                     {calculations.insideDiameter.mm} mm

@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { PipeEntry, SearchState, HistoryEntry, FavoritesEntry, Theme } from '@/types'
+import type { PipeEntry, SearchState, HistoryEntry, FavoritesEntry } from '@/types'
 import { findPipeData, getAllPipeSizes, getSchedulesForSize } from '@/lib/pipe-data'
 import { computeAllCalculations } from '@/lib/calculations'
 import { generateId } from '@/lib/utils'
@@ -12,18 +12,16 @@ interface PipeStore extends SearchState {
   favorites: FavoritesEntry[]
   availableSizes: string[]
   availableSchedules: string[]
-  theme: Theme
 
   setPipeSize: (size: string | null) => void
   setSchedule: (schedule: string | null) => void
+  applySelection: (size: string, schedule: string) => void
   setTotalLength: (length: number) => void
-  setThicknessSearch: (value: string) => void
   compute: () => void
   addToHistory: (size: string, schedule: string) => void
   clearHistory: () => void
   toggleFavorite: (size: string, schedule: string) => void
   removeFavorite: (id: string) => void
-  setTheme: (theme: Theme) => void
   clear: () => void
 }
 
@@ -33,14 +31,12 @@ export const usePipeStore = create<PipeStore>()(
       selectedSize: null,
       selectedSchedule: null,
       totalLength: 10,
-      thicknessSearch: '',
       result: null,
       calculations: null,
       history: [],
       favorites: [],
       availableSizes: getAllPipeSizes(),
       availableSchedules: [],
-      theme: 'system',
 
       setPipeSize: (size) => {
         set({
@@ -65,17 +61,30 @@ export const usePipeStore = create<PipeStore>()(
         }
       },
 
-      setTotalLength: (length) => {
-        set({ totalLength: length })
+      applySelection: (size, schedule) => {
+        const schedules = getSchedulesForSize(size)
+        const pipe = findPipeData(size, schedule)
+        if (!pipe) return
         const state = get()
-        if (state.result) {
-          const calculations = computeAllCalculations(state.result, length)
-          set({ calculations })
-        }
+        const calculations = computeAllCalculations(pipe, state.totalLength)
+        set({
+          selectedSize: size,
+          availableSchedules: schedules,
+          selectedSchedule: schedule,
+          result: pipe,
+          calculations,
+        })
+        get().addToHistory(size, schedule)
       },
 
-      setThicknessSearch: (value) => {
-        set({ thicknessSearch: value })
+      setTotalLength: (length) => {
+        const safeLength = isFinite(length) && length >= 0 ? length : 0
+        set({ totalLength: safeLength })
+        const state = get()
+        if (state.result) {
+          const calculations = computeAllCalculations(state.result, safeLength)
+          set({ calculations })
+        }
       },
 
       compute: () => {
@@ -128,8 +137,6 @@ export const usePipeStore = create<PipeStore>()(
         }))
       },
 
-      setTheme: (theme) => set({ theme }),
-
       clear: () =>
         set({
           selectedSize: null,
@@ -137,7 +144,6 @@ export const usePipeStore = create<PipeStore>()(
           result: null,
           calculations: null,
           totalLength: 10,
-          thicknessSearch: '',
         }),
     }),
     {
@@ -145,7 +151,7 @@ export const usePipeStore = create<PipeStore>()(
       partialize: (state) => ({
         history: state.history,
         favorites: state.favorites,
-        theme: state.theme,
+        totalLength: state.totalLength,
       }),
     }
   )

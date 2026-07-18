@@ -8,14 +8,13 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { Clock, Trash2, RotateCcw } from 'lucide-react'
 
 export function SearchHistory() {
-  const { history, clearHistory, setPipeSize, setSchedule } = usePipeStore()
-
-  if (history.length === 0) return null
+  const { history, clearHistory, applySelection } = usePipeStore()
 
   function handleRestore(entry: (typeof history)[0]) {
-    setPipeSize(entry.pipeSize)
-    setTimeout(() => setSchedule(entry.schedule), 50)
+    applySelection(entry.pipeSize, entry.schedule)
   }
+
+  if (history.length === 0) return null
 
   return (
     <motion.div
@@ -30,7 +29,13 @@ export function SearchHistory() {
               <Clock className="h-4 w-4 text-muted-foreground" />
               <CardTitle className="text-sm">History</CardTitle>
             </div>
-            <Button variant="ghost" size="sm" onClick={clearHistory}>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={clearHistory}
+              aria-label="Clear history"
+              className="h-8 w-8"
+            >
               <Trash2 className="h-3.5 w-3.5" />
             </Button>
           </div>
@@ -49,7 +54,8 @@ export function SearchHistory() {
                   >
                     <div>
                       <span className="text-sm font-medium text-foreground">
-                        {entry.pipeSize}"
+{entry.pipeSize}&quot;
+                       
                       </span>
                       <span className="ml-2 text-xs text-muted-foreground">
                         Schedule {entry.schedule}
@@ -57,7 +63,8 @@ export function SearchHistory() {
                     </div>
                     <button
                       onClick={() => handleRestore(entry)}
-                      className="opacity-0 transition-opacity group-hover:opacity-100"
+                      className="rounded-md p-1 opacity-0 transition-opacity group-hover:opacity-100 focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                      aria-label={`Restore search ${entry.pipeSize} inch Schedule ${entry.schedule}`}
                     >
                       <RotateCcw className="h-3.5 w-3.5 text-muted-foreground hover:text-foreground" />
                     </button>
