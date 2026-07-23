@@ -84,16 +84,16 @@ export function ResultCard() {
 
             <div className="grid gap-2.5 sm:grid-cols-2">
               <StatRow
-                icon={Maximize2}
-                label="Outside Diameter (OD)"
-                imperial={`${result.outsideDiameter.inch}"`}
-                metric={`${result.outsideDiameter.mm} mm`}
-              />
-              <StatRow
                 icon={Ruler}
                 label="Wall Thickness (WT)"
                 imperial={`${result.wallThickness.inch}"`}
                 metric={`${result.wallThickness.mm} mm`}
+              />
+              <StatRow
+                icon={Maximize2}
+                label="Outside Diameter (OD)"
+                imperial={`${result.outsideDiameter.inch}"`}
+                metric={`${result.outsideDiameter.mm} mm`}
               />
               <StatRow
                 icon={Circle}

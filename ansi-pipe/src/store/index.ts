@@ -39,9 +39,51 @@ export const usePipeStore = create<PipeStore>()(
       availableSchedules: [],
 
       setPipeSize: (size) => {
+        if (!size) {
+          set({
+            selectedSize: null,
+            availableSchedules: [],
+            selectedSchedule: null,
+            result: null,
+            calculations: null,
+          })
+          return
+        }
+
+        const schedules = getSchedulesForSize(size)
+        const currentSchedule = get().selectedSchedule
+        let targetSchedule: string | null = null
+
+        if (currentSchedule && schedules.includes(currentSchedule)) {
+          targetSchedule = currentSchedule
+        } else if (schedules.includes('40')) {
+          targetSchedule = '40'
+        } else if (schedules.includes('STD')) {
+          targetSchedule = 'STD'
+        } else if (schedules.length > 0) {
+          targetSchedule = schedules[0]
+        }
+
+        if (targetSchedule) {
+          const pipe = findPipeData(size, targetSchedule)
+          if (pipe) {
+            const state = get()
+            const calculations = computeAllCalculations(pipe, state.totalLength)
+            set({
+              selectedSize: size,
+              availableSchedules: schedules,
+              selectedSchedule: targetSchedule,
+              result: pipe,
+              calculations,
+            })
+            get().addToHistory(size, targetSchedule)
+            return
+          }
+        }
+
         set({
           selectedSize: size,
-          availableSchedules: size ? getSchedulesForSize(size) : [],
+          availableSchedules: schedules,
           selectedSchedule: null,
           result: null,
           calculations: null,

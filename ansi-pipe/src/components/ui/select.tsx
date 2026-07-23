@@ -40,15 +40,15 @@ export function Select({
         onChange={handleChange}
         disabled={disabled}
         className={cn(
-          'flex h-12 w-full appearance-none rounded-xl border border-border bg-card px-4 py-2 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
+          'flex h-12 w-full appearance-none rounded-xl border border-border bg-card pl-4 pr-10 py-2 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
           className
         )}
       >
-        <option value="" disabled>
+        <option value="" disabled className="bg-card text-muted-foreground">
           {placeholder}
         </option>
         {options.map((opt) => (
-          <option key={opt.value} value={opt.value}>
+          <option key={opt.value} value={opt.value} className="bg-card text-foreground">
             {opt.label}
           </option>
         ))}

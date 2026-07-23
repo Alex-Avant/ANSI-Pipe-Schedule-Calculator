@@ -3,13 +3,27 @@ import rawData from '@/app/pipe_data.json'
 
 const data = rawData as unknown as PipeEntry[]
 
+function parsePipeSizeValue(sizeStr: string): number {
+  const parts = sizeStr.trim().split(/\s+/)
+  let total = 0
+  for (const part of parts) {
+    if (part.includes('/')) {
+      const [num, den] = part.split('/')
+      if (num && den && !isNaN(Number(num)) && !isNaN(Number(den)) && Number(den) !== 0) {
+        total += Number(num) / Number(den)
+      }
+    } else if (!isNaN(Number(part))) {
+      total += Number(part)
+    }
+  }
+  return total
+}
+
 export function getAllPipeSizes(): string[] {
   const sizes = new Set<string>()
   data.forEach((entry) => sizes.add(entry.pipeSize))
   return Array.from(sizes).sort((a, b) => {
-    const aNum = parseFloat(a)
-    const bNum = parseFloat(b)
-    return aNum - bNum
+    return parsePipeSizeValue(a) - parsePipeSizeValue(b)
   })
 }
 
