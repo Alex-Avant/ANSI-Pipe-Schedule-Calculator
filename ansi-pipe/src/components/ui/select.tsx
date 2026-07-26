@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, type ChangeEvent } from 'react'
+import { useCallback, useRef, type ChangeEvent } from 'react'
 import { cn } from '@/lib/utils'
 import { ChevronDown } from 'lucide-react'
 
@@ -26,6 +26,8 @@ export function Select({
   disabled = false,
   className,
 }: SelectProps) {
+  const selectRef = useRef<HTMLSelectElement>(null)
+
   const handleChange = useCallback(
     (e: ChangeEvent<HTMLSelectElement>) => {
       onChange(e.target.value)
@@ -36,6 +38,7 @@ export function Select({
   return (
     <div className="relative">
       <select
+        ref={selectRef}
         value={value}
         onChange={handleChange}
         disabled={disabled}
