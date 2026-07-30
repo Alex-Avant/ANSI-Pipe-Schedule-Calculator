@@ -13,6 +13,7 @@ import {
   Gauge,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import type { PipeEntry } from '@/types'
 
 function formatNumber(value: number, maxFractionDigits = 2): string {
   if (!isFinite(value)) return '0'
@@ -28,7 +29,7 @@ interface StatItem {
   metric: string
 }
 
-const statsConfig = (calc: NonNullable<ReturnType<typeof usePipeStore.getState>['calculations']>): StatItem[] => [
+const statsConfig = (result: PipeEntry, calc: NonNullable<ReturnType<typeof usePipeStore.getState>['calculations']>): StatItem[] => [
   {
     icon: Circle,
     label: 'Inside Diameter (ID)',
@@ -50,8 +51,8 @@ const statsConfig = (calc: NonNullable<ReturnType<typeof usePipeStore.getState>[
   {
     icon: Weight,
     label: 'Weight per Foot',
-    imperial: `${formatNumber(calc.weightPerLength.lb)} lb`,
-    metric: `${formatNumber(calc.weightPerLength.kg)} kg`,
+    imperial: `${formatNumber(result.weight.lbPerFt)} lb/ft`,
+    metric: `${formatNumber(result.weight.kgPerM)} kg/m`,
   },
 ]
 
@@ -155,6 +156,11 @@ export function CalculationPanel() {
                       isFocusedRef.current = true
                     }}
                     onBlur={handleBlur}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        (e.target as HTMLInputElement).blur()
+                      }
+                    }}
                     placeholder="0"
                     className={cn(
                       'flex h-12 w-full appearance-none rounded-xl border border-border bg-card pl-4 pr-10 py-2 text-sm shadow-sm transition-colors',
@@ -169,7 +175,7 @@ export function CalculationPanel() {
               </div>
 
               <div className="grid gap-2.5 sm:grid-cols-2">
-                {statsConfig(calculations).map((stat) => {
+                {statsConfig(result!, calculations).map((stat) => {
                   const Icon = stat.icon
                   return (
                     <div

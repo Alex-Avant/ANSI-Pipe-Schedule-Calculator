@@ -9,7 +9,6 @@ import {
   Share2,
   FileDown,
   FileSpreadsheet,
-  Camera,
   Heart,
   Bookmark,
 } from 'lucide-react'
@@ -18,7 +17,6 @@ import {
   copyResultsToClipboard,
   exportToPdf,
   exportToExcel,
-  shareAsImage,
   shareResults,
 } from '@/lib/export'
 import type { PipeEntry, PipeCalculations } from '@/types'
@@ -56,14 +54,6 @@ export function ExportActions() {
       loading: 'Generating Excel...',
       success: 'Excel downloaded',
       error: 'Failed to generate Excel',
-    })
-  }
-
-  function handleImage() {
-    toast.promise(shareAsImage('pipe-result-card'), {
-      loading: 'Generating image...',
-      success: 'Image downloaded',
-      error: 'Failed to generate image',
     })
   }
 
@@ -114,13 +104,6 @@ export function ExportActions() {
           <Button variant="secondary" size="sm" onClick={handleExcel}>
             <FileSpreadsheet className="h-4 w-4" />
             Excel
-          </Button>
-        </Tooltip>
-
-        <Tooltip content="Save as image">
-          <Button variant="secondary" size="sm" onClick={handleImage}>
-            <Camera className="h-4 w-4" />
-            Image
           </Button>
         </Tooltip>
 

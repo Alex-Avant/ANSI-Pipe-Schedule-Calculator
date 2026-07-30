@@ -19,27 +19,35 @@ function StatRow({
   label,
   imperial,
   metric,
+  highlight,
 }: {
   icon: React.ElementType
   label: string
   imperial: string
   metric: string
+  highlight?: boolean
 }) {
   return (
-    <div className="flex items-center gap-3 rounded-xl bg-muted/60 p-3 transition-colors hover:bg-muted">
+    <div
+      className={
+        highlight
+          ? 'flex items-center gap-3 rounded-xl bg-muted/80 p-3 pl-4 ring-1 ring-accent/40 transition-colors hover:bg-muted'
+          : 'flex items-center gap-3 rounded-xl bg-muted/60 p-3 transition-colors hover:bg-muted'
+      }
+    >
       <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-card shadow-sm ring-1 ring-border">
         <Icon className="h-4 w-4 text-accent" />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="text-[11px] uppercase tracking-wide text-muted-foreground">
+        <p className="text-[11px] uppercase tracking-wide text-foreground/80">
           {label}
         </p>
         <div className="flex items-baseline gap-2">
-          <span className="text-sm font-semibold text-foreground">
+          <span className={highlight ? 'text-base font-bold text-foreground' : 'text-sm font-semibold text-foreground'}>
             {imperial}
           </span>
           <span className="text-xs text-muted-foreground">·</span>
-          <span className="text-xs text-muted-foreground">{metric}</span>
+          <span className={highlight ? 'text-sm font-semibold text-accent' : 'text-xs text-muted-foreground'}>{metric}</span>
         </div>
       </div>
     </div>
@@ -88,6 +96,7 @@ export function ResultCard() {
                 label="Wall Thickness (WT)"
                 imperial={`${result.wallThickness.inch}"`}
                 metric={`${result.wallThickness.mm} mm`}
+                highlight
               />
               <StatRow
                 icon={Maximize2}
