@@ -77,37 +77,35 @@ export function ExportActions() {
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-        className="flex flex-wrap items-center gap-2"
+        className="grid grid-cols-5 gap-2"
       >
         <Tooltip content="Copy to clipboard">
-          <Button variant="secondary" size="sm" onClick={handleCopy}>
+          <Button variant="secondary" size="sm" onClick={handleCopy} className="w-full">
             <Copy className="h-4 w-4" />
-            Copy
+            <span className="hidden sm:inline">Copy</span>
           </Button>
         </Tooltip>
 
         <Tooltip content="Share result">
-          <Button variant="secondary" size="sm" onClick={handleShare}>
+          <Button variant="secondary" size="sm" onClick={handleShare} className="w-full">
             <Share2 className="h-4 w-4" />
-            Share
+            <span className="hidden sm:inline">Share</span>
           </Button>
         </Tooltip>
 
         <Tooltip content="Export as PDF">
-          <Button variant="secondary" size="sm" onClick={handlePdf}>
+          <Button variant="secondary" size="sm" onClick={handlePdf} className="w-full">
             <FileDown className="h-4 w-4" />
-            PDF
+            <span className="hidden sm:inline">PDF</span>
           </Button>
         </Tooltip>
 
         <Tooltip content="Export as Excel">
-          <Button variant="secondary" size="sm" onClick={handleExcel}>
+          <Button variant="secondary" size="sm" onClick={handleExcel} className="w-full">
             <FileSpreadsheet className="h-4 w-4" />
-            Excel
+            <span className="hidden sm:inline">Excel</span>
           </Button>
         </Tooltip>
-
-        <div className="mx-1 hidden h-6 w-px bg-border sm:block" />
 
         <Tooltip content={isFavorite ? 'Remove from favorites' : 'Add to favorites'}>
           <Button
@@ -117,8 +115,8 @@ export function ExportActions() {
             aria-pressed={isFavorite}
             className={
               isFavorite
-                ? 'border-red-200 bg-red-50 text-red-600 hover:bg-red-100 dark:border-red-900 dark:bg-red-950 dark:text-red-400'
-                : 'border-dashed'
+                ? 'w-full border-red-200 bg-red-50 text-red-600 hover:bg-red-100 dark:border-red-900 dark:bg-red-950 dark:text-red-400'
+                : 'w-full border-dashed'
             }
           >
             {isFavorite ? (
@@ -126,7 +124,7 @@ export function ExportActions() {
             ) : (
               <Bookmark className="h-4 w-4" />
             )}
-            {isFavorite ? 'Saved' : 'Save'}
+            <span className="hidden sm:inline">{isFavorite ? 'Saved' : 'Save'}</span>
           </Button>
         </Tooltip>
       </motion.div>

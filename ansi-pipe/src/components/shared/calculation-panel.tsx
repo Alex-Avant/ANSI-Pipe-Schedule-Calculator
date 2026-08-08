@@ -1,10 +1,8 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { usePipeStore } from '@/store'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Label } from '@/components/ui/label'
 import {
   Circle,
   Droplets,
@@ -12,7 +10,6 @@ import {
   Hash,
   Gauge,
 } from 'lucide-react'
-import { cn } from '@/lib/utils'
 import type { PipeEntry } from '@/types'
 
 function formatNumber(value: number, maxFractionDigits = 2): string {
@@ -57,68 +54,7 @@ const statsConfig = (result: PipeEntry, calc: NonNullable<ReturnType<typeof useP
 ]
 
 export function CalculationPanel() {
-  const { result, calculations, totalLength, setTotalLength } = usePipeStore()
-
-  const [lengthInput, setLengthInput] = useState<string>(() =>
-    String(totalLength ?? '')
-  )
-  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
-  const isFocusedRef = useRef(false)
-
-  useEffect(() => {
-    if (isFocusedRef.current) return
-    const next = totalLength === 0 ? '' : String(totalLength)
-    setLengthInput(next)
-  }, [totalLength])
-
-  useEffect(() => {
-    return () => {
-      if (debounceRef.current) clearTimeout(debounceRef.current)
-    }
-  }, [])
-
-  function handleChange(value: string) {
-    const raw = value.replace(/[^0-9.]/g, '')
-    const dotIndex = raw.indexOf('.')
-    const sanitized =
-      dotIndex === -1
-        ? raw
-        : raw.slice(0, dotIndex + 1) + raw.slice(dotIndex + 1).replace(/\./g, '')
-
-    setLengthInput(sanitized)
-
-    if (debounceRef.current) clearTimeout(debounceRef.current)
-    debounceRef.current = setTimeout(() => {
-      if (sanitized.trim() === '' || sanitized === '.') {
-        setTotalLength(0)
-        return
-      }
-      const parsed = parseFloat(sanitized)
-      if (!isNaN(parsed)) {
-        setTotalLength(parsed)
-      }
-    }, 350)
-  }
-
-  function handleBlur() {
-    isFocusedRef.current = false
-
-    if (debounceRef.current) clearTimeout(debounceRef.current)
-
-    const trimmed = lengthInput.trim()
-    if (trimmed === '' || trimmed === '.') {
-      setLengthInput(String(totalLength || ''))
-      return
-    }
-    const parsed = parseFloat(trimmed)
-    if (isNaN(parsed)) {
-      setLengthInput(String(totalLength || ''))
-      return
-    }
-    const clamped = Math.max(0, parsed)
-    setLengthInput(String(clamped))
-    setTotalLength(clamped)
-  }
+  const { result, calculations, totalLength } = usePipeStore()
 
   return (
     <AnimatePresence>
@@ -142,38 +78,6 @@ export function CalculationPanel() {
             </CardHeader>
 
             <CardContent className="space-y-4">
-              <div className="space-y-2">
-                <Label htmlFor="length">Pipe Length (feet)</Label>
-                <div className="relative">
-                  <input
-                    id="length"
-                    type="text"
-                    inputMode="decimal"
-                    autoComplete="off"
-                    value={lengthInput}
-                    onChange={(e) => handleChange(e.target.value)}
-                    onFocus={() => {
-                      isFocusedRef.current = true
-                    }}
-                    onBlur={handleBlur}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter') {
-                        (e.target as HTMLInputElement).blur()
-                      }
-                    }}
-                    placeholder="0"
-                    className={cn(
-                      'flex h-12 w-full appearance-none rounded-xl border border-border bg-card pl-4 pr-10 py-2 text-sm shadow-sm transition-colors',
-                      'placeholder:text-muted-foreground',
-                      'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2'
-                    )}
-                  />
-                  <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-sm font-medium text-muted-foreground">
-                    ft
-                  </span>
-                </div>
-              </div>
-
               <div className="grid gap-2.5 sm:grid-cols-2">
                 {statsConfig(result!, calculations).map((stat) => {
                   const Icon = stat.icon
