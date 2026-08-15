@@ -2707,8 +2707,8 @@
             "squareMm": 10288.207
         },
         "weight": {
-            "lbPerFt": null,
-            "kgPerM": null
+            "lbPerFt": 12.54,
+            "kgPerM": 18.66
         }
     },
     {
@@ -2731,8 +2731,8 @@
             "squareMm": 9325.495
         },
         "weight": {
-            "lbPerFt": null,
-            "kgPerM": null
+            "lbPerFt": 17.61,
+            "kgPerM": 26.21
         }
     },
     {
@@ -2755,8 +2755,8 @@
             "squareMm": 6494.166
         },
         "weight": {
-            "lbPerFt": null,
-            "kgPerM": null
+            "lbPerFt": 32.53,
+            "kgPerM": 48.41
         }
     },
     {
@@ -3211,8 +3211,8 @@
             "squareMm": 24992.094
         },
         "weight": {
-            "lbPerFt": null,
-            "kgPerM": null
+            "lbPerFt": 23.54,
+            "kgPerM": 35.03
         }
     },
     {
@@ -3235,8 +3235,8 @@
             "squareMm": 22239.708
         },
         "weight": {
-            "lbPerFt": null,
-            "kgPerM": null
+            "lbPerFt": 38.05,
+            "kgPerM": 56.62
         }
     },
     {
