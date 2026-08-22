@@ -1,13 +1,22 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { PipeEntry, SearchState, HistoryEntry, FavoritesEntry } from '@/types'
+import type {
+  PipeEntry,
+  SearchState,
+  HistoryEntry,
+  FavoritesEntry,
+  PipeCalculations,
+  TotalCalculations,
+} from '@/types'
 import { findPipeData, getAllPipeSizes, getSchedulesForSize } from '@/lib/pipe-data'
-import { computeAllCalculations } from '@/lib/calculations'
+import { computeAllCalculations, calculateTotalCalculations, normalizeQuantity } from '@/lib/calculations'
 import { generateId } from '@/lib/utils'
 
 interface PipeStore extends SearchState {
   result: PipeEntry | null
-  calculations: ReturnType<typeof computeAllCalculations> | null
+  calculations: PipeCalculations | null
+  totals: TotalCalculations | null
+  quantity: number
   history: HistoryEntry[]
   favorites: FavoritesEntry[]
   availableSizes: string[]
@@ -17,12 +26,22 @@ interface PipeStore extends SearchState {
   setSchedule: (schedule: string | null) => void
   applySelection: (size: string, schedule: string) => void
   setTotalLength: (length: number) => void
+  setQuantity: (quantity: number) => void
   compute: () => void
   addToHistory: (size: string, schedule: string) => void
   clearHistory: () => void
   toggleFavorite: (size: string, schedule: string) => void
   removeFavorite: (id: string) => void
   clear: () => void
+}
+
+function buildDerivedState(pipe: PipeEntry, lengthFeet: number, quantity: number) {
+  const calculations = computeAllCalculations(pipe, lengthFeet)
+  return {
+    result: pipe,
+    calculations,
+    totals: calculateTotalCalculations(pipe, calculations, quantity),
+  }
 }
 
 export const usePipeStore = create<PipeStore>()(
@@ -33,6 +52,8 @@ export const usePipeStore = create<PipeStore>()(
       totalLength: 10,
       result: null,
       calculations: null,
+      totals: null,
+      quantity: 1,
       history: [],
       favorites: [],
       availableSizes: getAllPipeSizes(),
@@ -46,6 +67,7 @@ export const usePipeStore = create<PipeStore>()(
             selectedSchedule: null,
             result: null,
             calculations: null,
+            totals: null,
           })
           return
         }
@@ -68,13 +90,11 @@ export const usePipeStore = create<PipeStore>()(
           const pipe = findPipeData(size, targetSchedule)
           if (pipe) {
             const state = get()
-            const calculations = computeAllCalculations(pipe, state.totalLength)
             set({
               selectedSize: size,
               availableSchedules: schedules,
               selectedSchedule: targetSchedule,
-              result: pipe,
-              calculations,
+              ...buildDerivedState(pipe, state.totalLength, state.quantity),
             })
             get().addToHistory(size, targetSchedule)
             return
@@ -87,6 +107,7 @@ export const usePipeStore = create<PipeStore>()(
           selectedSchedule: null,
           result: null,
           calculations: null,
+          totals: null,
         })
       },
 
@@ -96,8 +117,7 @@ export const usePipeStore = create<PipeStore>()(
         if (state.selectedSize && schedule) {
           const pipe = findPipeData(state.selectedSize, schedule)
           if (pipe) {
-            const calculations = computeAllCalculations(pipe, state.totalLength)
-            set({ result: pipe, calculations })
+            set(buildDerivedState(pipe, state.totalLength, state.quantity))
             get().addToHistory(state.selectedSize, schedule)
           }
         }
@@ -108,13 +128,11 @@ export const usePipeStore = create<PipeStore>()(
         const pipe = findPipeData(size, schedule)
         if (!pipe) return
         const state = get()
-        const calculations = computeAllCalculations(pipe, state.totalLength)
         set({
           selectedSize: size,
           availableSchedules: schedules,
           selectedSchedule: schedule,
-          result: pipe,
-          calculations,
+          ...buildDerivedState(pipe, state.totalLength, state.quantity),
         })
         get().addToHistory(size, schedule)
       },
@@ -124,8 +142,24 @@ export const usePipeStore = create<PipeStore>()(
         set({ totalLength: safeLength })
         const state = get()
         if (state.result) {
-          const calculations = computeAllCalculations(state.result, safeLength)
-          set({ calculations })
+          set(
+            buildDerivedState(state.result, safeLength, state.quantity)
+          )
+        }
+      },
+
+      setQuantity: (quantity) => {
+        const safeQuantity = normalizeQuantity(quantity)
+        set({ quantity: safeQuantity })
+        const state = get()
+        if (state.result && state.calculations) {
+          set({
+            totals: calculateTotalCalculations(
+              state.result,
+              state.calculations,
+              safeQuantity
+            ),
+          })
         }
       },
 
@@ -134,8 +168,7 @@ export const usePipeStore = create<PipeStore>()(
         if (state.selectedSize && state.selectedSchedule) {
           const pipe = findPipeData(state.selectedSize, state.selectedSchedule)
           if (pipe) {
-            const calculations = computeAllCalculations(pipe, state.totalLength)
-            set({ result: pipe, calculations })
+            set(buildDerivedState(pipe, state.totalLength, state.quantity))
           }
         }
       },
@@ -185,7 +218,9 @@ export const usePipeStore = create<PipeStore>()(
           selectedSchedule: null,
           result: null,
           calculations: null,
+          totals: null,
           totalLength: 10,
+          quantity: 1,
         }),
     }),
     {
@@ -194,6 +229,7 @@ export const usePipeStore = create<PipeStore>()(
         history: state.history,
         favorites: state.favorites,
         totalLength: state.totalLength,
+        quantity: state.quantity,
       }),
     }
   )

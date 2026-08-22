@@ -9,6 +9,7 @@ import {
   Weight,
   Hash,
   Gauge,
+  Layers,
 } from 'lucide-react'
 import type { PipeEntry } from '@/types'
 
@@ -54,11 +55,11 @@ const statsConfig = (result: PipeEntry, calc: NonNullable<ReturnType<typeof useP
 ]
 
 export function CalculationPanel() {
-  const { result, calculations, totalLength } = usePipeStore()
+  const { result, calculations, totals, totalLength } = usePipeStore()
 
   return (
     <AnimatePresence>
-      {result && calculations && (
+      {result && calculations && totals && (
         <motion.div
           initial={{ opacity: 0, y: 16, scale: 0.98 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -78,6 +79,9 @@ export function CalculationPanel() {
             </CardHeader>
 
             <CardContent className="space-y-4">
+              <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
+                Per Pipe
+              </p>
               <div className="grid gap-2.5 sm:grid-cols-2">
                 {statsConfig(result!, calculations).map((stat) => {
                   const Icon = stat.icon
@@ -109,19 +113,51 @@ export function CalculationPanel() {
               </div>
 
               <div className="rounded-xl bg-primary p-4 text-primary-foreground">
-                <div className="grid grid-cols-2 gap-3">
+                <div className="mb-3 flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <Layers className="h-4 w-4 text-primary-foreground/80" />
+                    <p className="text-[11px] font-semibold uppercase tracking-wider">
+                      Total — {formatNumber(totals.quantity)}{' '}
+                      {totals.quantity === 1 ? 'Pipe' : 'Pipes'}
+                    </p>
+                  </div>
+                  <span className="text-[11px] text-primary-foreground/70">
+                    {formatNumber(calculations.totalLength * totals.quantity)} ft
+                    overall
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-x-3 gap-y-4 sm:grid-cols-3">
                   <div>
                     <p className="text-xs text-primary-foreground/70">
                       Total Weight
                     </p>
                     <p className="text-lg font-semibold">
-                      {formatNumber(calculations.weightPerLength.lb)} lb
+                      {formatNumber(totals.weight.lb)} lb
+                    </p>
+                    <p className="text-xs text-primary-foreground/70">
+                      {formatNumber(totals.weight.kg)} kg
                     </p>
                   </div>
-                  <div className="text-right">
-                    <p className="text-xs text-primary-foreground/70">Metric</p>
+                  <div>
+                    <p className="text-xs text-primary-foreground/70">
+                      Total Flow Area
+                    </p>
                     <p className="text-lg font-semibold">
-                      {formatNumber(calculations.weightPerLength.kg)} kg
+                      {formatNumber(totals.flowArea.squareInch, 3)} in²
+                    </p>
+                    <p className="text-xs text-primary-foreground/70">
+                      {formatNumber(totals.flowArea.squareMm, 3)} mm²
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-primary-foreground/70">
+                      Total Volume
+                    </p>
+                    <p className="text-lg font-semibold">
+                      {formatNumber(totals.volume.cubicInch, 3)} in³
+                    </p>
+                    <p className="text-xs text-primary-foreground/70">
+                      {formatNumber(totals.volume.liters, 3)} L
                     </p>
                   </div>
                 </div>

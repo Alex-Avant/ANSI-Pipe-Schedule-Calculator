@@ -29,6 +29,13 @@ export interface PipeCalculations {
   totalLength: number
 }
 
+export interface TotalCalculations {
+  quantity: number
+  flowArea: FlowArea
+  volume: { cubicInch: number; liters: number }
+  weight: { lb: number; kg: number }
+}
+
 export interface HistoryEntry {
   id: string
   pipeSize: string

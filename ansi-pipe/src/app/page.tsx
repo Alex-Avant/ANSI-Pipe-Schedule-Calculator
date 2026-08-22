@@ -3,6 +3,7 @@
 import { PipeSelector } from '@/components/shared/pipe-selector'
 import { ScheduleSelector } from '@/components/shared/schedule-selector'
 import { LengthSelector } from '@/components/shared/length-selector'
+import { QuantitySelector } from '@/components/shared/quantity-selector'
 import { ResultCard } from '@/components/shared/result-card'
 import { CalculationPanel } from '@/components/shared/calculation-panel'
 import { ExportActions } from '@/components/shared/export-actions'
@@ -25,10 +26,11 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <PipeSelector />
           <ScheduleSelector />
           <LengthSelector />
+          <QuantitySelector />
         </div>
 
         <ExportActions />
