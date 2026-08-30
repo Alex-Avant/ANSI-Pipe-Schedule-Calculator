@@ -9,6 +9,8 @@
   --color-card-foreground: var(--card-foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-totals: var(--totals);
+  --color-totals-foreground: var(--totals-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
   --color-muted: var(--muted);
@@ -25,6 +27,9 @@
   --card-foreground: #0F172A;
   --primary: #2563EB;
   --primary-foreground: #FFFFFF;
+  /* Total calculations panel: deeper brand blue, keeps white text ≥ 4.5:1 */
+  --totals: #1D4ED8;
+  --totals-foreground: #FFFFFF;
   --accent: #06B6D4;
   --accent-foreground: #0F172A;
   --muted: #F1F5F9;

@@ -123,4 +123,32 @@ describe('usePipeStore', () => {
     expect(at30.volume.cubicInch).toBeCloseTo(at10.volume.cubicInch * 3, 3)
     expect(at30.quantity).toBe(1)
   })
+
+  it('history entries capture length, quantity and total weight', () => {
+    usePipeStore.getState().applySelection('5', '40')
+    usePipeStore.getState().setTotalLength(40)
+    usePipeStore.getState().setQuantity(40)
+
+    // setTotalLength / setQuantity do not re-add history; force a fresh entry
+    usePipeStore.getState().applySelection('5', '40')
+
+    const state = usePipeStore.getState()
+    const entry = state.history[0]
+    expect(entry.pipeSize).toBe('5')
+    expect(entry.schedule).toBe('40')
+    expect(entry.lengthFeet).toBe(40)
+    expect(entry.quantity).toBe(40)
+    expect(entry.totalWeightLb).toBeCloseTo(14.63 * 40 * 40, 2)
+    expect(state.history).toHaveLength(1)
+  })
+
+  it('history deduplicates by size/schedule and keeps the latest snapshot', () => {
+    usePipeStore.getState().applySelection('2', '40')
+    usePipeStore.getState().setTotalLength(20)
+    usePipeStore.getState().applySelection('2', '40')
+
+    const state = usePipeStore.getState()
+    expect(state.history).toHaveLength(1)
+    expect(state.history[0].lengthFeet).toBe(20)
+  })
 })

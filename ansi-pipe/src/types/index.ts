@@ -41,6 +41,9 @@ export interface HistoryEntry {
   pipeSize: string
   schedule: string
   timestamp: number
+  lengthFeet?: number
+  quantity?: number
+  totalWeightLb?: number
 }
 
 export interface FavoritesEntry {

@@ -132,19 +132,19 @@ export function ResultCard() {
 
             <Separator className="my-4" />
 
-            <div className="rounded-xl bg-primary p-4 text-primary-foreground">
-              <p className="mb-2 text-[11px] uppercase tracking-wide text-primary-foreground/70">
+            <div className="rounded-xl bg-totals p-4 text-totals-foreground">
+              <p className="mb-2 text-[11px] uppercase tracking-wide text-totals-foreground/85">
                 For {calculations.totalLength} ft length
               </p>
               <div className="grid grid-cols-2 gap-3">
                 <div>
-                  <p className="text-xs text-primary-foreground/70">Total Weight</p>
+                  <p className="text-xs text-totals-foreground/85">Total Weight</p>
                   <p className="text-lg font-semibold">
                     {calculations.weightPerLength.lb} lb
                   </p>
                 </div>
                 <div className="text-right">
-                  <p className="text-xs text-primary-foreground/70">Metric</p>
+                  <p className="text-xs text-totals-foreground/85">Metric</p>
                   <p className="text-lg font-semibold">
                     {calculations.weightPerLength.kg} kg
                   </p>

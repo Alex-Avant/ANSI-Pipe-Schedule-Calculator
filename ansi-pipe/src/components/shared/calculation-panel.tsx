@@ -3,15 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { usePipeStore } from '@/store'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import {
-  Circle,
-  Droplets,
-  Weight,
-  Hash,
-  Gauge,
-  Layers,
-} from 'lucide-react'
-import type { PipeEntry } from '@/types'
+import { Droplets, Gauge, Hash, Layers, Ruler, Weight } from 'lucide-react'
 
 function formatNumber(value: number, maxFractionDigits = 2): string {
   if (!isFinite(value)) return '0'
@@ -20,42 +12,40 @@ function formatNumber(value: number, maxFractionDigits = 2): string {
   }).format(value)
 }
 
-interface StatItem {
+interface TotalRowProps {
   icon: React.ElementType
   label: string
   imperial: string
-  metric: string
+  metric?: string
 }
 
-const statsConfig = (result: PipeEntry, calc: NonNullable<ReturnType<typeof usePipeStore.getState>['calculations']>): StatItem[] => [
-  {
-    icon: Circle,
-    label: 'Inside Diameter (ID)',
-    imperial: `${formatNumber(calc.insideDiameter.inch, 3)}"`,
-    metric: `${formatNumber(calc.insideDiameter.mm)} mm`,
-  },
-  {
-    icon: Hash,
-    label: 'Flow Area',
-    imperial: `${formatNumber(calc.flowArea.squareInch, 3)} in²`,
-    metric: `${formatNumber(calc.flowArea.squareMm, 3)} mm²`,
-  },
-  {
-    icon: Droplets,
-    label: 'Volume per Foot',
-    imperial: `${formatNumber(calc.volumePerFoot.cubicInch, 3)} in³/ft`,
-    metric: `${formatNumber(calc.volumePerFoot.litersPerM)} L/m`,
-  },
-  {
-    icon: Weight,
-    label: 'Weight per Foot',
-    imperial: `${formatNumber(result.weight.lbPerFt)} lb/ft`,
-    metric: `${formatNumber(result.weight.kgPerM)} kg/m`,
-  },
-]
+function TotalRow({ icon: Icon, label, imperial, metric }: TotalRowProps) {
+  return (
+    <li className="flex items-center justify-between gap-3 rounded-lg bg-totals-foreground/10 px-3 py-2.5">
+      <div className="flex min-w-0 items-center gap-2">
+        <Icon
+          className="h-3.5 w-3.5 shrink-0 text-totals-foreground/90"
+          aria-hidden="true"
+        />
+        <p className="text-xs text-totals-foreground/90">{label}</p>
+      </div>
+      <div className="text-right tabular-nums">
+        <p className="text-base font-semibold leading-tight">{imperial}</p>
+        {metric && (
+          <p className="text-xs leading-tight text-totals-foreground/85">
+            {metric}
+          </p>
+        )}
+      </div>
+    </li>
+  )
+}
 
 export function CalculationPanel() {
-  const { result, calculations, totals, totalLength } = usePipeStore()
+  const { result, calculations, totals } = usePipeStore()
+
+  const overallLength =
+    calculations && totals ? calculations.totalLength * totals.quantity : 0
 
   return (
     <AnimatePresence>
@@ -67,100 +57,67 @@ export function CalculationPanel() {
         >
           <Card>
             <CardHeader>
-              <div className="flex items-center justify-between">
+              <div className="flex items-start justify-between gap-3">
                 <div className="flex items-center gap-2">
                   <Gauge className="h-5 w-5 text-accent" />
                   <CardTitle>Calculations</CardTitle>
                 </div>
-                <span className="text-xs text-muted-foreground">
-                  For {formatNumber(totalLength)} ft length
-                </span>
+                <div className="text-right text-xs text-muted-foreground">
+                  <p>
+                    <span className="font-semibold text-foreground">
+                      {formatNumber(totals.quantity)}
+                    </span>{' '}
+                    {totals.quantity === 1 ? 'pipe' : 'pipes'} ×{' '}
+                    <span className="font-semibold text-foreground">
+                      {formatNumber(calculations.totalLength)}
+                    </span>{' '}
+                    ft each
+                  </p>
+                  <p>{formatNumber(overallLength)} ft overall</p>
+                </div>
               </div>
             </CardHeader>
 
-            <CardContent className="space-y-4">
-              <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
-                Per Pipe
-              </p>
-              <div className="grid gap-2.5 sm:grid-cols-2">
-                {statsConfig(result!, calculations).map((stat) => {
-                  const Icon = stat.icon
-                  return (
-                    <div
-                      key={stat.label}
-                      className="flex items-center gap-3 rounded-xl bg-muted/60 p-3 transition-colors hover:bg-muted"
-                    >
-                      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-card shadow-sm ring-1 ring-border">
-                        <Icon className="h-4 w-4 text-accent" />
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-[11px] uppercase tracking-wide text-muted-foreground">
-                          {stat.label}
-                        </p>
-                        <div className="flex items-baseline gap-2">
-                          <span className="text-sm font-semibold text-foreground">
-                            {stat.imperial}
-                          </span>
-                          <span className="text-xs text-muted-foreground">·</span>
-                          <span className="text-xs text-muted-foreground">
-                            {stat.metric}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
+            <CardContent>
+              <div
+                className="rounded-xl bg-totals p-4 text-totals-foreground sm:p-5"
+                role="region"
+                aria-label="Total calculations"
+                aria-live="polite"
+              >
+                <div className="mb-3 flex items-center gap-2">
+                  <Layers className="h-4 w-4 text-totals-foreground/90" />
+                  <p className="text-[11px] font-semibold uppercase tracking-wider">
+                    Total — {formatNumber(totals.quantity)}{' '}
+                    {totals.quantity === 1 ? 'Pipe' : 'Pipes'}
+                  </p>
+                </div>
 
-              <div className="rounded-xl bg-primary p-4 text-primary-foreground">
-                <div className="mb-3 flex items-center justify-between gap-2">
-                  <div className="flex items-center gap-2">
-                    <Layers className="h-4 w-4 text-primary-foreground/80" />
-                    <p className="text-[11px] font-semibold uppercase tracking-wider">
-                      Total — {formatNumber(totals.quantity)}{' '}
-                      {totals.quantity === 1 ? 'Pipe' : 'Pipes'}
-                    </p>
-                  </div>
-                  <span className="text-[11px] text-primary-foreground/70">
-                    {formatNumber(calculations.totalLength * totals.quantity)} ft
-                    overall
-                  </span>
-                </div>
-                <div className="grid grid-cols-2 gap-x-3 gap-y-4 sm:grid-cols-3">
-                  <div>
-                    <p className="text-xs text-primary-foreground/70">
-                      Total Weight
-                    </p>
-                    <p className="text-lg font-semibold">
-                      {formatNumber(totals.weight.lb)} lb
-                    </p>
-                    <p className="text-xs text-primary-foreground/70">
-                      {formatNumber(totals.weight.kg)} kg
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-xs text-primary-foreground/70">
-                      Total Flow Area
-                    </p>
-                    <p className="text-lg font-semibold">
-                      {formatNumber(totals.flowArea.squareInch, 3)} in²
-                    </p>
-                    <p className="text-xs text-primary-foreground/70">
-                      {formatNumber(totals.flowArea.squareMm, 3)} mm²
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-xs text-primary-foreground/70">
-                      Total Volume
-                    </p>
-                    <p className="text-lg font-semibold">
-                      {formatNumber(totals.volume.cubicInch, 3)} in³
-                    </p>
-                    <p className="text-xs text-primary-foreground/70">
-                      {formatNumber(totals.volume.liters, 3)} L
-                    </p>
-                  </div>
-                </div>
+                <ul className="space-y-2">
+                  <TotalRow
+                    icon={Ruler}
+                    label="Total Length"
+                    imperial={`${formatNumber(overallLength)} ft`}
+                  />
+                  <TotalRow
+                    icon={Weight}
+                    label="Total Weight"
+                    imperial={`${formatNumber(totals.weight.lb)} lb`}
+                    metric={`${formatNumber(totals.weight.kg)} kg`}
+                  />
+                  <TotalRow
+                    icon={Hash}
+                    label="Total Flow Area"
+                    imperial={`${formatNumber(totals.flowArea.squareInch, 3)} in²`}
+                    metric={`${formatNumber(totals.flowArea.squareMm, 3)} mm²`}
+                  />
+                  <TotalRow
+                    icon={Droplets}
+                    label="Total Volume"
+                    imperial={`${formatNumber(totals.volume.cubicInch, 3)} in³`}
+                    metric={`${formatNumber(totals.volume.liters, 3)} L`}
+                  />
+                </ul>
               </div>
             </CardContent>
           </Card>

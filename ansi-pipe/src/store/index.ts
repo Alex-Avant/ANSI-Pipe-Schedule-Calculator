@@ -180,7 +180,15 @@ export const usePipeStore = create<PipeStore>()(
           )
           return {
             history: [
-              { id: generateId(), pipeSize: size, schedule, timestamp: Date.now() },
+              {
+                id: generateId(),
+                pipeSize: size,
+                schedule,
+                timestamp: Date.now(),
+                lengthFeet: state.totalLength,
+                quantity: state.quantity,
+                totalWeightLb: state.totals?.weight.lb,
+              },
               ...filtered,
             ].slice(0, 20),
           }

@@ -7,6 +7,13 @@ import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Clock, Trash2, RotateCcw } from 'lucide-react'
 
+function formatNumber(value: number, maxFractionDigits = 2): string {
+  if (!isFinite(value)) return '0'
+  return new Intl.NumberFormat('en-US', {
+    maximumFractionDigits: maxFractionDigits,
+  }).format(value)
+}
+
 export function SearchHistory() {
   const { history, clearHistory, applySelection } = usePipeStore()
 
@@ -52,14 +59,24 @@ export function SearchHistory() {
                     exit={{ opacity: 0, x: 10 }}
                     className="group flex items-center justify-between rounded-lg px-3 py-2 transition-colors hover:bg-muted"
                   >
-                    <div>
-                      <span className="text-sm font-medium text-foreground">
-{entry.pipeSize}&quot;
-                       
-                      </span>
-                      <span className="ml-2 text-xs text-muted-foreground">
-                        Schedule {entry.schedule}
-                      </span>
+                    <div className="min-w-0">
+                      <p className="truncate text-sm font-medium text-foreground">
+                        {entry.pipeSize}&quot;{' '}
+                        <span className="text-muted-foreground">·</span>{' '}
+                        <span className="text-xs text-muted-foreground">
+                          SCH {entry.schedule}
+                        </span>
+                      </p>
+                      {entry.lengthFeet !== undefined &&
+                        entry.quantity !== undefined && (
+                          <p className="text-xs text-muted-foreground">
+                            {formatNumber(entry.lengthFeet)} ft ×{' '}
+                            {formatNumber(entry.quantity)} pcs
+                            {entry.totalWeightLb !== undefined && (
+                              <> · {formatNumber(entry.totalWeightLb)} lb</>
+                            )}
+                          </p>
+                        )}
                     </div>
                     <button
                       onClick={() => handleRestore(entry)}
